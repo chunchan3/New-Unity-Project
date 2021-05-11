@@ -22,7 +22,6 @@ public class ShipShootScript : MonoBehaviour
         {
             timeSinceLastShot = shootDelay;
             GameObject bulletObject = Instantiate(enemyBullet);
-            enemyBullet.
         }
 
         timeSinceLastShot -= Time.deltaTime;
