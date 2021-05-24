@@ -27,4 +27,11 @@ public class Bullet : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(gameObject.name + " Was Triggered by " + other.gameObject.name);
+        Destroy(this.gameObject);
+    }
 }
