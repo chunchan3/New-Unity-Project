@@ -9787,16 +9787,56 @@ public:
 struct XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618  : public SubsystemDescriptorWithProvider_2_tB12E064D6020E2F12266EBEB553796258028452B
 {
 public:
+	// System.Boolean UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor::<supportsFacePose>k__BackingField
+	bool ___U3CsupportsFacePoseU3Ek__BackingField_3;
+	// System.Boolean UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor::<supportsFaceMeshVerticesAndIndices>k__BackingField
+	bool ___U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4;
+	// System.Boolean UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor::<supportsFaceMeshUVs>k__BackingField
+	bool ___U3CsupportsFaceMeshUVsU3Ek__BackingField_5;
+	// System.Boolean UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor::<supportsFaceMeshNormals>k__BackingField
+	bool ___U3CsupportsFaceMeshNormalsU3Ek__BackingField_6;
 	// System.Boolean UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor::<supportsEyeTracking>k__BackingField
-	bool ___U3CsupportsEyeTrackingU3Ek__BackingField_3;
+	bool ___U3CsupportsEyeTrackingU3Ek__BackingField_7;
 
 public:
-	inline static int32_t get_offset_of_U3CsupportsEyeTrackingU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsEyeTrackingU3Ek__BackingField_3)); }
-	inline bool get_U3CsupportsEyeTrackingU3Ek__BackingField_3() const { return ___U3CsupportsEyeTrackingU3Ek__BackingField_3; }
-	inline bool* get_address_of_U3CsupportsEyeTrackingU3Ek__BackingField_3() { return &___U3CsupportsEyeTrackingU3Ek__BackingField_3; }
-	inline void set_U3CsupportsEyeTrackingU3Ek__BackingField_3(bool value)
+	inline static int32_t get_offset_of_U3CsupportsFacePoseU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsFacePoseU3Ek__BackingField_3)); }
+	inline bool get_U3CsupportsFacePoseU3Ek__BackingField_3() const { return ___U3CsupportsFacePoseU3Ek__BackingField_3; }
+	inline bool* get_address_of_U3CsupportsFacePoseU3Ek__BackingField_3() { return &___U3CsupportsFacePoseU3Ek__BackingField_3; }
+	inline void set_U3CsupportsFacePoseU3Ek__BackingField_3(bool value)
 	{
-		___U3CsupportsEyeTrackingU3Ek__BackingField_3 = value;
+		___U3CsupportsFacePoseU3Ek__BackingField_3 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4)); }
+	inline bool get_U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4() const { return ___U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4; }
+	inline bool* get_address_of_U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4() { return &___U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4; }
+	inline void set_U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4(bool value)
+	{
+		___U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CsupportsFaceMeshUVsU3Ek__BackingField_5() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsFaceMeshUVsU3Ek__BackingField_5)); }
+	inline bool get_U3CsupportsFaceMeshUVsU3Ek__BackingField_5() const { return ___U3CsupportsFaceMeshUVsU3Ek__BackingField_5; }
+	inline bool* get_address_of_U3CsupportsFaceMeshUVsU3Ek__BackingField_5() { return &___U3CsupportsFaceMeshUVsU3Ek__BackingField_5; }
+	inline void set_U3CsupportsFaceMeshUVsU3Ek__BackingField_5(bool value)
+	{
+		___U3CsupportsFaceMeshUVsU3Ek__BackingField_5 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CsupportsFaceMeshNormalsU3Ek__BackingField_6() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsFaceMeshNormalsU3Ek__BackingField_6)); }
+	inline bool get_U3CsupportsFaceMeshNormalsU3Ek__BackingField_6() const { return ___U3CsupportsFaceMeshNormalsU3Ek__BackingField_6; }
+	inline bool* get_address_of_U3CsupportsFaceMeshNormalsU3Ek__BackingField_6() { return &___U3CsupportsFaceMeshNormalsU3Ek__BackingField_6; }
+	inline void set_U3CsupportsFaceMeshNormalsU3Ek__BackingField_6(bool value)
+	{
+		___U3CsupportsFaceMeshNormalsU3Ek__BackingField_6 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CsupportsEyeTrackingU3Ek__BackingField_7() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsEyeTrackingU3Ek__BackingField_7)); }
+	inline bool get_U3CsupportsEyeTrackingU3Ek__BackingField_7() const { return ___U3CsupportsEyeTrackingU3Ek__BackingField_7; }
+	inline bool* get_address_of_U3CsupportsEyeTrackingU3Ek__BackingField_7() { return &___U3CsupportsEyeTrackingU3Ek__BackingField_7; }
+	inline void set_U3CsupportsEyeTrackingU3Ek__BackingField_7(bool value)
+	{
+		___U3CsupportsEyeTrackingU3Ek__BackingField_7 = value;
 	}
 };
 
@@ -26962,7 +27002,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t661141E668063C73311C9DF09B3AE945E
 		L_1 = SubsystemLifecycleManager_3_get_subsystem_mECDDE4A838FA3AE336F989C2DBC2C0ED374B2FF5_inline(__this, /*hidden argument*/SubsystemLifecycleManager_3_get_subsystem_mECDDE4A838FA3AE336F989C2DBC2C0ED374B2FF5_RuntimeMethod_var);
 		NullCheck(L_1);
 		Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  L_2;
-		L_2 = VirtFuncInvoker0< Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  >::Invoke(9 /* System.Nullable`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration> UnityEngine.XR.ARSubsystems.XRCameraSubsystem::get_currentConfiguration() */, L_1);
+		L_2 = VirtFuncInvoker0< Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  >::Invoke(14 /* System.Nullable`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration> UnityEngine.XR.ARSubsystems.XRCameraSubsystem::get_currentConfiguration() */, L_1);
 		return L_2;
 	}
 
@@ -26997,7 +27037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCameraManager_set_currentConfiguration
 		L_1 = SubsystemLifecycleManager_3_get_subsystem_mECDDE4A838FA3AE336F989C2DBC2C0ED374B2FF5_inline(__this, /*hidden argument*/SubsystemLifecycleManager_3_get_subsystem_mECDDE4A838FA3AE336F989C2DBC2C0ED374B2FF5_RuntimeMethod_var);
 		Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  L_2 = ___value0;
 		NullCheck(L_1);
-		VirtActionInvoker1< Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  >::Invoke(10 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem::set_currentConfiguration(System.Nullable`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration>) */, L_1, L_2);
+		VirtActionInvoker1< Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  >::Invoke(15 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem::set_currentConfiguration(System.Nullable`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration>) */, L_1, L_2);
 	}
 
 IL_0014:
@@ -31072,7 +31112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARFace_UpdateMesh_mEE08208DC6722A409D43B
 		L_2 = XRFace_get_trackableId_m997871151FF642B1908F7E352C952A44AB4DD17C_inline((XRFace_tA970995ECE26D43D1CBB9058ABEC72B76D2DA599 *)(&V_0), /*hidden argument*/NULL);
 		XRFaceMesh_t2ADC7E6069DCCCFB439A4A60DB9189338C9E1AD0 * L_3 = __this->get_address_of_m_FaceMesh_11();
 		NullCheck(L_0);
-		VirtActionInvoker3< TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , int32_t, XRFaceMesh_t2ADC7E6069DCCCFB439A4A60DB9189338C9E1AD0 * >::Invoke(10 /* System.Void UnityEngine.XR.ARSubsystems.XRFaceSubsystem::GetFaceMesh(UnityEngine.XR.ARSubsystems.TrackableId,Unity.Collections.Allocator,UnityEngine.XR.ARSubsystems.XRFaceMesh&) */, L_0, L_2, 4, (XRFaceMesh_t2ADC7E6069DCCCFB439A4A60DB9189338C9E1AD0 *)L_3);
+		VirtActionInvoker3< TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , int32_t, XRFaceMesh_t2ADC7E6069DCCCFB439A4A60DB9189338C9E1AD0 * >::Invoke(15 /* System.Void UnityEngine.XR.ARSubsystems.XRFaceSubsystem::GetFaceMesh(UnityEngine.XR.ARSubsystems.TrackableId,Unity.Collections.Allocator,UnityEngine.XR.ARSubsystems.XRFaceMesh&) */, L_0, L_2, 4, (XRFaceMesh_t2ADC7E6069DCCCFB439A4A60DB9189338C9E1AD0 *)L_3);
 		// m_Updated = true;
 		__this->set_m_Updated_12((bool)1);
 		// }
@@ -50437,7 +50477,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRFaceSubsystemDescriptor_ge
 {
 	{
 		// public bool supportsEyeTracking { get; }
-		bool L_0 = __this->get_U3CsupportsEyeTrackingU3Ek__BackingField_3();
+		bool L_0 = __this->get_U3CsupportsEyeTrackingU3Ek__BackingField_7();
 		return L_0;
 	}
 }

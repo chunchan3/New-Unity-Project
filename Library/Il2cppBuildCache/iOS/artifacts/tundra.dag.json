@@ -19,46 +19,46 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp /Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/il2cppOutput",
-      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
+      "Annotation": "Il2Cpp /Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/il2cppOutput",
+      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
       "Inputs": [
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/Mono.Security.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/System.Configuration.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/System.Core.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/System.Xml.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/System.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/UnityEngine.dll",
-        "/Users/chunhochan/UnityLearn/New Unity Project/Temp/StagingArea/Data/Managed/mscorlib.dll"
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Temp/StagingArea/Data/Managed/mscorlib.dll"
       ],
       "Outputs": [],
       "TargetDirectories": [
-        "/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/il2cppOutput"
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/il2cppOutput"
       ],
       "PassIndex": 0,
       "Deps": [],
@@ -69,13 +69,13 @@
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
-      "Action": "cp \"/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "cp \"/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
       "Inputs": [
-        "/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -89,13 +89,13 @@
       "DebugActionIndex": 2
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
-      "Action": "cp \"/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "cp \"/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
       "Inputs": [
-        "/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/chunhochan/UnityLearn/New Unity Project/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+        "/Users/chunhochan/cs467/New-Unity-Project-main_24:5/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,

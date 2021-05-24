@@ -766,6 +766,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDF94EFAB2817C9FA4C96A63F52A6908EB5841345
 IL2CPP_EXTERN_C String_t* _stringLiteralE249513646B3CA3B2119CA7AD27370C9E9012B74;
 IL2CPP_EXTERN_C String_t* _stringLiteralE30658D0ADE6E62208BFA543EF45EB5C784EE9B9;
 IL2CPP_EXTERN_C String_t* _stringLiteralE38896D7A7A4D523CB8DB8499882C1A4B6CD2517;
+IL2CPP_EXTERN_C String_t* _stringLiteralE3B3C6EBFEA166D20BF43554ADFEFAB3308E3F3E;
 IL2CPP_EXTERN_C String_t* _stringLiteralE446F5E5E3D5CD70111EE44D96D38C2402691299;
 IL2CPP_EXTERN_C String_t* _stringLiteralE4E07AE56B3A0074E42A9FFB34854865ED818489;
 IL2CPP_EXTERN_C String_t* _stringLiteralE573BD7F9C4A38697EE4A429FA0C236D6C7038C4;
@@ -789,7 +790,16 @@ IL2CPP_EXTERN_C String_t* _stringLiteralFDA1C52D0E58360F4E8FD608757CCD98D8772D4F
 IL2CPP_EXTERN_C String_t* _stringLiteralFFE3A1B73CD7FC81540FBBE737435B0A887629D5;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_3_Invoke_m0D09DC94117A9FFD3AA865B34B2572BBDD443AC2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AddReferenceImageJobState__ctor_mAFC8E35811BAF9292B00B7D06EF4C6895AFDD74C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Api_ConvertAsync_m7D88B9B493A448A03FBED33FE2C675805A2417F0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Api_ConvertAsync_mE9BFD28B9BC1C3A063FC0B84B014B3538A155E99_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Api_DisposeAsyncRequest_m06C972C865763DF2DE877124295F4A48B0574ABE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Api_DisposeImage_m6AEAAF9EF11D19294B441CF6DBB8FEDD58933989_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Api_GetAsyncRequestStatus_m920A8C2BA437BF3581A737DE8AF350094577300B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Api_NativeHandleValid_m25628942A0D2320EAB96887219972ED8257FC858_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Api_TryConvert_m2FB4CAC6639BE6EDDD65D74A3C296C9A72C1E6FD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Api_TryGetAsyncRequestData_mCEB60B8F55366677F05AAF1651F46C4B28AFAEA3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Api_TryGetConvertedDataSize_m50DDC92171F520516E21205E3817BEE0D51A9A51_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Api_TryGetPlane_m9EDAE9347615522A0C95F387DF4D274D655090A8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Configuration__ctor_m5A3F2286F33BA303B4C8A8E0E34ED6DA993A43BB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* DefaultConfigurationChooser_ChooseConfiguration_m4CA6F2A0B77732D4EACCA7D6FD3B1B1407ECBBD1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m79BB9557BF615D18A63059DCFFA3FD69F020132A_RuntimeMethod_var;
@@ -6829,16 +6839,56 @@ public:
 struct XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618  : public SubsystemDescriptorWithProvider_2_tB12E064D6020E2F12266EBEB553796258028452B
 {
 public:
+	// System.Boolean UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor::<supportsFacePose>k__BackingField
+	bool ___U3CsupportsFacePoseU3Ek__BackingField_3;
+	// System.Boolean UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor::<supportsFaceMeshVerticesAndIndices>k__BackingField
+	bool ___U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4;
+	// System.Boolean UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor::<supportsFaceMeshUVs>k__BackingField
+	bool ___U3CsupportsFaceMeshUVsU3Ek__BackingField_5;
+	// System.Boolean UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor::<supportsFaceMeshNormals>k__BackingField
+	bool ___U3CsupportsFaceMeshNormalsU3Ek__BackingField_6;
 	// System.Boolean UnityEngine.XR.ARSubsystems.XRFaceSubsystemDescriptor::<supportsEyeTracking>k__BackingField
-	bool ___U3CsupportsEyeTrackingU3Ek__BackingField_3;
+	bool ___U3CsupportsEyeTrackingU3Ek__BackingField_7;
 
 public:
-	inline static int32_t get_offset_of_U3CsupportsEyeTrackingU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsEyeTrackingU3Ek__BackingField_3)); }
-	inline bool get_U3CsupportsEyeTrackingU3Ek__BackingField_3() const { return ___U3CsupportsEyeTrackingU3Ek__BackingField_3; }
-	inline bool* get_address_of_U3CsupportsEyeTrackingU3Ek__BackingField_3() { return &___U3CsupportsEyeTrackingU3Ek__BackingField_3; }
-	inline void set_U3CsupportsEyeTrackingU3Ek__BackingField_3(bool value)
+	inline static int32_t get_offset_of_U3CsupportsFacePoseU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsFacePoseU3Ek__BackingField_3)); }
+	inline bool get_U3CsupportsFacePoseU3Ek__BackingField_3() const { return ___U3CsupportsFacePoseU3Ek__BackingField_3; }
+	inline bool* get_address_of_U3CsupportsFacePoseU3Ek__BackingField_3() { return &___U3CsupportsFacePoseU3Ek__BackingField_3; }
+	inline void set_U3CsupportsFacePoseU3Ek__BackingField_3(bool value)
 	{
-		___U3CsupportsEyeTrackingU3Ek__BackingField_3 = value;
+		___U3CsupportsFacePoseU3Ek__BackingField_3 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4)); }
+	inline bool get_U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4() const { return ___U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4; }
+	inline bool* get_address_of_U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4() { return &___U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4; }
+	inline void set_U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4(bool value)
+	{
+		___U3CsupportsFaceMeshVerticesAndIndicesU3Ek__BackingField_4 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CsupportsFaceMeshUVsU3Ek__BackingField_5() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsFaceMeshUVsU3Ek__BackingField_5)); }
+	inline bool get_U3CsupportsFaceMeshUVsU3Ek__BackingField_5() const { return ___U3CsupportsFaceMeshUVsU3Ek__BackingField_5; }
+	inline bool* get_address_of_U3CsupportsFaceMeshUVsU3Ek__BackingField_5() { return &___U3CsupportsFaceMeshUVsU3Ek__BackingField_5; }
+	inline void set_U3CsupportsFaceMeshUVsU3Ek__BackingField_5(bool value)
+	{
+		___U3CsupportsFaceMeshUVsU3Ek__BackingField_5 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CsupportsFaceMeshNormalsU3Ek__BackingField_6() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsFaceMeshNormalsU3Ek__BackingField_6)); }
+	inline bool get_U3CsupportsFaceMeshNormalsU3Ek__BackingField_6() const { return ___U3CsupportsFaceMeshNormalsU3Ek__BackingField_6; }
+	inline bool* get_address_of_U3CsupportsFaceMeshNormalsU3Ek__BackingField_6() { return &___U3CsupportsFaceMeshNormalsU3Ek__BackingField_6; }
+	inline void set_U3CsupportsFaceMeshNormalsU3Ek__BackingField_6(bool value)
+	{
+		___U3CsupportsFaceMeshNormalsU3Ek__BackingField_6 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CsupportsEyeTrackingU3Ek__BackingField_7() { return static_cast<int32_t>(offsetof(XRFaceSubsystemDescriptor_t129999D2BF40B1016A8C70A0FDE9763C21DCD618, ___U3CsupportsEyeTrackingU3Ek__BackingField_7)); }
+	inline bool get_U3CsupportsEyeTrackingU3Ek__BackingField_7() const { return ___U3CsupportsEyeTrackingU3Ek__BackingField_7; }
+	inline bool* get_address_of_U3CsupportsEyeTrackingU3Ek__BackingField_7() { return &___U3CsupportsEyeTrackingU3Ek__BackingField_7; }
+	inline void set_U3CsupportsEyeTrackingU3Ek__BackingField_7(bool value)
+	{
+		___U3CsupportsEyeTrackingU3Ek__BackingField_7 = value;
 	}
 };
 
@@ -18776,7 +18826,7 @@ IL_0013:
 		int32_t L_4 = ___allocator0;
 		NullCheck(L_2);
 		TrackableChanges_1_tF38314CFF715F232D6DA3415FD2F68CE504CFF9B  L_5;
-		L_5 = VirtFuncInvoker2< TrackableChanges_1_tF38314CFF715F232D6DA3415FD2F68CE504CFF9B , XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C , int32_t >::Invoke(6 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRAnchor> UnityEngine.XR.ARSubsystems.XRAnchorSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRAnchor,Unity.Collections.Allocator) */, L_2, L_3, L_4);
+		L_5 = VirtFuncInvoker2< TrackableChanges_1_tF38314CFF715F232D6DA3415FD2F68CE504CFF9B , XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C , int32_t >::Invoke(8 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRAnchor> UnityEngine.XR.ARSubsystems.XRAnchorSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRAnchor,Unity.Collections.Allocator) */, L_2, L_3, L_4);
 		// return changes;
 		return L_5;
 	}
@@ -18798,7 +18848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRAnchorSubsystem_TryAddAnchor_m203DDF74
 		XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C * L_2 = ___anchor1;
 		NullCheck(L_0);
 		bool L_3;
-		L_3 = VirtFuncInvoker2< bool, Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A , XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C * >::Invoke(7 /* System.Boolean UnityEngine.XR.ARSubsystems.XRAnchorSubsystem/Provider::TryAddAnchor(UnityEngine.Pose,UnityEngine.XR.ARSubsystems.XRAnchor&) */, L_0, L_1, (XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C *)L_2);
+		L_3 = VirtFuncInvoker2< bool, Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A , XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C * >::Invoke(9 /* System.Boolean UnityEngine.XR.ARSubsystems.XRAnchorSubsystem/Provider::TryAddAnchor(UnityEngine.Pose,UnityEngine.XR.ARSubsystems.XRAnchor&) */, L_0, L_1, (XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C *)L_2);
 		return L_3;
 	}
 }
@@ -18820,7 +18870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRAnchorSubsystem_TryAttachAnchor_mC8678
 		XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C * L_3 = ___anchor2;
 		NullCheck(L_0);
 		bool L_4;
-		L_4 = VirtFuncInvoker3< bool, TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A , XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C * >::Invoke(8 /* System.Boolean UnityEngine.XR.ARSubsystems.XRAnchorSubsystem/Provider::TryAttachAnchor(UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.Pose,UnityEngine.XR.ARSubsystems.XRAnchor&) */, L_0, L_1, L_2, (XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C *)L_3);
+		L_4 = VirtFuncInvoker3< bool, TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A , XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C * >::Invoke(10 /* System.Boolean UnityEngine.XR.ARSubsystems.XRAnchorSubsystem/Provider::TryAttachAnchor(UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.Pose,UnityEngine.XR.ARSubsystems.XRAnchor&) */, L_0, L_1, L_2, (XRAnchor_t8E92DD70D9FA9B3ED2799305E05228184932099C *)L_3);
 		return L_4;
 	}
 }
@@ -18840,7 +18890,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRAnchorSubsystem_TryRemoveAnchor_mA418E
 		TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  L_1 = ___anchorId0;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtFuncInvoker1< bool, TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  >::Invoke(9 /* System.Boolean UnityEngine.XR.ARSubsystems.XRAnchorSubsystem/Provider::TryRemoveAnchor(UnityEngine.XR.ARSubsystems.TrackableId) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< bool, TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  >::Invoke(11 /* System.Boolean UnityEngine.XR.ARSubsystems.XRAnchorSubsystem/Provider::TryRemoveAnchor(UnityEngine.XR.ARSubsystems.TrackableId) */, L_0, L_1);
 		return L_2;
 	}
 }
@@ -20774,7 +20824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t XRCameraSubsystem_get_currentCamera_
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_0);
 		uint64_t L_1;
-		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(10 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_currentCamera() */, L_0);
+		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(12 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_currentCamera() */, L_0);
 		uint64_t L_2;
 		L_2 = FeatureExtensions_Cameras_m3814978160FF343F4B295277B62A10A90BE46F7F(L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -20795,7 +20845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t XRCameraSubsystem_get_requestedCamer
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_0);
 		uint64_t L_1;
-		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(11 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_requestedCamera() */, L_0);
+		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(13 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_requestedCamera() */, L_0);
 		return L_1;
 	}
 }
@@ -20816,7 +20866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRCameraSubsystem_set_requestedCamera_m9
 		uint64_t L_2;
 		L_2 = FeatureExtensions_Cameras_m3814978160FF343F4B295277B62A10A90BE46F7F(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< uint64_t >::Invoke(12 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::set_requestedCamera(UnityEngine.XR.ARSubsystems.Feature) */, L_0, L_2);
+		VirtActionInvoker1< uint64_t >::Invoke(14 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::set_requestedCamera(UnityEngine.XR.ARSubsystems.Feature) */, L_0, L_2);
 		return;
 	}
 }
@@ -20835,7 +20885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCameraSubsystem_get_autoFocusEnabled_m
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(14 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_autoFocusEnabled() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(16 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_autoFocusEnabled() */, L_0);
 		return L_1;
 	}
 }
@@ -20854,7 +20904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCameraSubsystem_get_autoFocusRequested
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(15 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_autoFocusRequested() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(17 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_autoFocusRequested() */, L_0);
 		return L_1;
 	}
 }
@@ -20873,7 +20923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRCameraSubsystem_set_autoFocusRequested
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		bool L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< bool >::Invoke(16 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::set_autoFocusRequested(System.Boolean) */, L_0, L_1);
+		VirtActionInvoker1< bool >::Invoke(18 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::set_autoFocusRequested(System.Boolean) */, L_0, L_1);
 		return;
 	}
 }
@@ -20892,7 +20942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t XRCameraSubsystem_get_currentLightEs
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_0);
 		uint64_t L_1;
-		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(17 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_currentLightEstimation() */, L_0);
+		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(19 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_currentLightEstimation() */, L_0);
 		uint64_t L_2;
 		L_2 = FeatureExtensions_LightEstimation_m7FF62D53AE0E08C1B8923FAB371C228B7DF190C5(L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -20913,7 +20963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t XRCameraSubsystem_get_requestedLight
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_0);
 		uint64_t L_1;
-		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(18 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_requestedLightEstimation() */, L_0);
+		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(20 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_requestedLightEstimation() */, L_0);
 		uint64_t L_2;
 		L_2 = FeatureExtensions_LightEstimation_m7FF62D53AE0E08C1B8923FAB371C228B7DF190C5(L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -20936,7 +20986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRCameraSubsystem_set_requestedLightEsti
 		uint64_t L_2;
 		L_2 = FeatureExtensions_LightEstimation_m7FF62D53AE0E08C1B8923FAB371C228B7DF190C5(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< uint64_t >::Invoke(19 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::set_requestedLightEstimation(UnityEngine.XR.ARSubsystems.Feature) */, L_0, L_2);
+		VirtActionInvoker1< uint64_t >::Invoke(21 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::set_requestedLightEstimation(UnityEngine.XR.ARSubsystems.Feature) */, L_0, L_2);
 		return;
 	}
 }
@@ -20962,7 +21012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t290DD5A348463DD4415AFE27775047
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		NativeArray_1_t290DD5A348463DD4415AFE27775047312478F952  L_3;
-		L_3 = VirtFuncInvoker2< NativeArray_1_t290DD5A348463DD4415AFE27775047312478F952 , XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 , int32_t >::Invoke(24 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRTextureDescriptor> UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::GetTextureDescriptors(UnityEngine.XR.ARSubsystems.XRTextureDescriptor,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< NativeArray_1_t290DD5A348463DD4415AFE27775047312478F952 , XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 , int32_t >::Invoke(26 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRTextureDescriptor> UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::GetTextureDescriptors(UnityEngine.XR.ARSubsystems.XRTextureDescriptor,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		return L_3;
 	}
 }
@@ -20981,7 +21031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t8927C00353A72755313F046D0CE85178AE8
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_0);
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_1;
-		L_1 = VirtFuncInvoker0< Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(7 /* UnityEngine.Material UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_cameraMaterial() */, L_0);
+		L_1 = VirtFuncInvoker0< Material_t8927C00353A72755313F046D0CE85178AE8218EE * >::Invoke(9 /* UnityEngine.Material UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_cameraMaterial() */, L_0);
 		return L_1;
 	}
 }
@@ -21000,7 +21050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRCameraSubsystem_OnBeforeBackgroundRend
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		int32_t L_1 = ___id0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(27 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::OnBeforeBackgroundRender(System.Int32) */, L_0, L_1);
+		VirtActionInvoker1< int32_t >::Invoke(29 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::OnBeforeBackgroundRender(System.Int32) */, L_0, L_1);
 		// }
 		return;
 	}
@@ -21021,7 +21071,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCameraSubsystem_TryGetIntrinsics_m2C08
 		XRCameraIntrinsics_t85F1514E263A6C6DE96DBA5448B44F11F35395FD * L_1 = ___cameraIntrinsics0;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtFuncInvoker1< bool, XRCameraIntrinsics_t85F1514E263A6C6DE96DBA5448B44F11F35395FD * >::Invoke(20 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::TryGetIntrinsics(UnityEngine.XR.ARSubsystems.XRCameraIntrinsics&) */, L_0, (XRCameraIntrinsics_t85F1514E263A6C6DE96DBA5448B44F11F35395FD *)L_1);
+		L_2 = VirtFuncInvoker1< bool, XRCameraIntrinsics_t85F1514E263A6C6DE96DBA5448B44F11F35395FD * >::Invoke(22 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::TryGetIntrinsics(UnityEngine.XR.ARSubsystems.XRCameraIntrinsics&) */, L_0, (XRCameraIntrinsics_t85F1514E263A6C6DE96DBA5448B44F11F35395FD *)L_1);
 		return L_2;
 	}
 }
@@ -21045,7 +21095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t80D42D57D2D76B05EFDA2CF74AE660
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		NativeArray_1_t80D42D57D2D76B05EFDA2CF74AE660AB5FDD9545  L_3;
-		L_3 = VirtFuncInvoker2< NativeArray_1_t80D42D57D2D76B05EFDA2CF74AE660AB5FDD9545 , XRCameraConfiguration_t2393055E5547307393E9C73AB13B95E0785A4F7A , int32_t >::Invoke(21 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration> UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::GetConfigurations(UnityEngine.XR.ARSubsystems.XRCameraConfiguration,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< NativeArray_1_t80D42D57D2D76B05EFDA2CF74AE660AB5FDD9545 , XRCameraConfiguration_t2393055E5547307393E9C73AB13B95E0785A4F7A , int32_t >::Invoke(23 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration> UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::GetConfigurations(UnityEngine.XR.ARSubsystems.XRCameraConfiguration,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		return L_3;
 	}
 }
@@ -21064,7 +21114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t661141E668063C73311C9DF09B3AE945E
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_0);
 		Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  L_1;
-		L_1 = VirtFuncInvoker0< Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  >::Invoke(22 /* System.Nullable`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration> UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_currentConfiguration() */, L_0);
+		L_1 = VirtFuncInvoker0< Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  >::Invoke(24 /* System.Nullable`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration> UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_currentConfiguration() */, L_0);
 		return L_1;
 	}
 }
@@ -21101,7 +21151,7 @@ IL_0019:
 		L_2 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  L_3 = ___value0;
 		NullCheck(L_2);
-		VirtActionInvoker1< Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  >::Invoke(23 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::set_currentConfiguration(System.Nullable`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration>) */, L_2, L_3);
+		VirtActionInvoker1< Nullable_1_t661141E668063C73311C9DF09B3AE945EA9A1D8C  >::Invoke(25 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::set_currentConfiguration(System.Nullable`1<UnityEngine.XR.ARSubsystems.XRCameraConfiguration>) */, L_2, L_3);
 		// }
 		return;
 	}
@@ -21121,7 +21171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCameraSubsystem_get_invertCulling_m16E
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_invertCulling() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_invertCulling() */, L_0);
 		return L_1;
 	}
 }
@@ -21150,7 +21200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCameraSubsystem_TryGetLatestFrame_m5ED
 		XRCameraFrame_t5FD7B7FC22B478AC6B00AD01A0AD6F2295EA1BA8 * L_3 = ___frame1;
 		NullCheck(L_1);
 		bool L_4;
-		L_4 = VirtFuncInvoker2< bool, XRCameraParams_t9FCECBDAEFCC1084042B75393990959B28B64B18 , XRCameraFrame_t5FD7B7FC22B478AC6B00AD01A0AD6F2295EA1BA8 * >::Invoke(13 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::TryGetFrame(UnityEngine.XR.ARSubsystems.XRCameraParams,UnityEngine.XR.ARSubsystems.XRCameraFrame&) */, L_1, L_2, (XRCameraFrame_t5FD7B7FC22B478AC6B00AD01A0AD6F2295EA1BA8 *)L_3);
+		L_4 = VirtFuncInvoker2< bool, XRCameraParams_t9FCECBDAEFCC1084042B75393990959B28B64B18 , XRCameraFrame_t5FD7B7FC22B478AC6B00AD01A0AD6F2295EA1BA8 * >::Invoke(15 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::TryGetFrame(UnityEngine.XR.ARSubsystems.XRCameraParams,UnityEngine.XR.ARSubsystems.XRCameraFrame&) */, L_1, L_2, (XRCameraFrame_t5FD7B7FC22B478AC6B00AD01A0AD6F2295EA1BA8 *)L_3);
 		if (!L_4)
 		{
 			goto IL_0019;
@@ -21185,7 +21235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCameraSubsystem_get_permissionGranted_
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_permissionGranted() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_permissionGranted() */, L_0);
 		return L_1;
 	}
 }
@@ -21205,7 +21255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRCameraSubsystem_GetMaterialKeywords_mF
 		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 ** L_1 = ___enabledKeywords0;
 		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 ** L_2 = ___disabledKeywords1;
 		NullCheck(L_0);
-		VirtActionInvoker2< List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **, List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 ** >::Invoke(25 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::GetMaterialKeywords(System.Collections.Generic.List`1<System.String>&,System.Collections.Generic.List`1<System.String>&) */, L_0, (List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **)L_1, (List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **)L_2);
+		VirtActionInvoker2< List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **, List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 ** >::Invoke(27 /* System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::GetMaterialKeywords(System.Collections.Generic.List`1<System.String>&,System.Collections.Generic.List`1<System.String>&) */, L_0, (List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **)L_1, (List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **)L_2);
 		return;
 	}
 }
@@ -21226,7 +21276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCameraSubsystem_TryAcquireLatestCpuIma
 		L_0 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_0);
 		Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * L_1;
-		L_1 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(6 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_cpuImageApi() */, L_0);
+		L_1 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(8 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_cpuImageApi() */, L_0);
 		if (!L_1)
 		{
 			goto IL_0035;
@@ -21237,7 +21287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCameraSubsystem_TryAcquireLatestCpuIma
 		L_2 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 * >::Invoke(26 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::TryAcquireLatestCpuImage(UnityEngine.XR.ARSubsystems.XRCpuImage/Cinfo&) */, L_2, (Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 *)(&V_0));
+		L_3 = VirtFuncInvoker1< bool, Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 * >::Invoke(28 /* System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::TryAcquireLatestCpuImage(UnityEngine.XR.ARSubsystems.XRCpuImage/Cinfo&) */, L_2, (Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 *)(&V_0));
 		if (!L_3)
 		{
 			goto IL_0035;
@@ -21250,7 +21300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRCameraSubsystem_TryAcquireLatestCpuIma
 		L_5 = SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m1A9D077047C8B1A5205FA507F8CA74471AE9488E_RuntimeMethod_var);
 		NullCheck(L_5);
 		Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * L_6;
-		L_6 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(6 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_cpuImageApi() */, L_5);
+		L_6 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(8 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::get_cpuImageApi() */, L_5);
 		Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6  L_7 = V_0;
 		XRCpuImage_tA48C0687D95D3D63D1101E4E08EFCF0ABB2431CE  L_8;
 		memset((&L_8), 0, sizeof(L_8));
@@ -23041,7 +23091,7 @@ IL_0011:
 		Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * L_2 = __this->get_m_Api_1();
 		int32_t L_3 = __this->get_m_NativeHandle_0();
 		NullCheck(L_2);
-		VirtActionInvoker1< int32_t >::Invoke(4 /* System.Void UnityEngine.XR.ARSubsystems.XRCpuImage/Api::DisposeImage(System.Int32) */, L_2, L_3);
+		VirtActionInvoker1< int32_t >::Invoke(11 /* System.Void UnityEngine.XR.ARSubsystems.XRCpuImage/Api::DisposeImage(System.Int32) */, L_2, L_3);
 		// m_NativeHandle = 0;
 		__this->set_m_NativeHandle_0(0);
 		// m_Api = null;
@@ -23323,7 +23373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t77AFD32F12A88AC162E5B41E6
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		TrackableChanges_1_t77AFD32F12A88AC162E5B41E66265CAF9D8E6435  L_3;
-		L_3 = VirtFuncInvoker2< TrackableChanges_1_t77AFD32F12A88AC162E5B41E66265CAF9D8E6435 , XRPointCloud_t08B41A05528E45CE709F8C14CA6C484D360A62F2 , int32_t >::Invoke(6 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRPointCloud> UnityEngine.XR.ARSubsystems.XRDepthSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRPointCloud,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< TrackableChanges_1_t77AFD32F12A88AC162E5B41E66265CAF9D8E6435 , XRPointCloud_t08B41A05528E45CE709F8C14CA6C484D360A62F2 , int32_t >::Invoke(8 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRPointCloud> UnityEngine.XR.ARSubsystems.XRDepthSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRPointCloud,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		// return changes;
 		return L_3;
 	}
@@ -23377,7 +23427,7 @@ IL_001e:
 		int32_t L_6 = ___allocator1;
 		NullCheck(L_4);
 		XRPointCloudData_t3AFE7A70A93C061F8C3B3B7AEDE07EDF6A86B177  L_7;
-		L_7 = VirtFuncInvoker2< XRPointCloudData_t3AFE7A70A93C061F8C3B3B7AEDE07EDF6A86B177 , TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , int32_t >::Invoke(7 /* UnityEngine.XR.ARSubsystems.XRPointCloudData UnityEngine.XR.ARSubsystems.XRDepthSubsystem/Provider::GetPointCloudData(UnityEngine.XR.ARSubsystems.TrackableId,Unity.Collections.Allocator) */, L_4, L_5, L_6);
+		L_7 = VirtFuncInvoker2< XRPointCloudData_t3AFE7A70A93C061F8C3B3B7AEDE07EDF6A86B177 , TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.XRPointCloudData UnityEngine.XR.ARSubsystems.XRDepthSubsystem/Provider::GetPointCloudData(UnityEngine.XR.ARSubsystems.TrackableId,Unity.Collections.Allocator) */, L_4, L_5, L_6);
 		return L_7;
 	}
 }
@@ -23928,7 +23978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREnvironmentProbeSubsystem_get_automati
 		L_0 = SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(6 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::get_automaticPlacementRequested() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::get_automaticPlacementRequested() */, L_0);
 		return L_1;
 	}
 }
@@ -23975,7 +24025,7 @@ IL_001b:
 		L_4 = SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_RuntimeMethod_var);
 		bool L_5 = ___value0;
 		NullCheck(L_4);
-		VirtActionInvoker1< bool >::Invoke(7 /* System.Void UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::set_automaticPlacementRequested(System.Boolean) */, L_4, L_5);
+		VirtActionInvoker1< bool >::Invoke(9 /* System.Void UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::set_automaticPlacementRequested(System.Boolean) */, L_4, L_5);
 		// }
 		return;
 	}
@@ -23995,7 +24045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREnvironmentProbeSubsystem_get_automati
 		L_0 = SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::get_automaticPlacementEnabled() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::get_automaticPlacementEnabled() */, L_0);
 		return L_1;
 	}
 }
@@ -24014,7 +24064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREnvironmentProbeSubsystem_get_environm
 		L_0 = SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::get_environmentTextureHDRRequested() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::get_environmentTextureHDRRequested() */, L_0);
 		return L_1;
 	}
 }
@@ -24033,7 +24083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XREnvironmentProbeSubsystem_set_environm
 		L_0 = SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_RuntimeMethod_var);
 		bool L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< bool >::Invoke(10 /* System.Void UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::set_environmentTextureHDRRequested(System.Boolean) */, L_0, L_1);
+		VirtActionInvoker1< bool >::Invoke(12 /* System.Void UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::set_environmentTextureHDRRequested(System.Boolean) */, L_0, L_1);
 		return;
 	}
 }
@@ -24052,7 +24102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XREnvironmentProbeSubsystem_get_environm
 		L_0 = SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m802C19CCC9E6A7145AFFEB831DE84BBBF664B238_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::get_environmentTextureHDREnabled() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(13 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::get_environmentTextureHDREnabled() */, L_0);
 		return L_1;
 	}
 }
@@ -24076,7 +24126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tBC1B6352E3D11F9F7BC4E5674
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		TrackableChanges_1_tBC1B6352E3D11F9F7BC4E567480BDF8AE39A547F  L_3;
-		L_3 = VirtFuncInvoker2< TrackableChanges_1_tBC1B6352E3D11F9F7BC4E567480BDF8AE39A547F , XREnvironmentProbe_t4D75B5DF95135D1BA45222CBE3E7677E823B8D4C , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XREnvironmentProbe> UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XREnvironmentProbe,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< TrackableChanges_1_tBC1B6352E3D11F9F7BC4E567480BDF8AE39A547F , XREnvironmentProbe_t4D75B5DF95135D1BA45222CBE3E7677E823B8D4C , int32_t >::Invoke(16 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XREnvironmentProbe> UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XREnvironmentProbe,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		return L_3;
 	}
 }
@@ -24123,7 +24173,7 @@ IL_0013:
 		XREnvironmentProbe_t4D75B5DF95135D1BA45222CBE3E7677E823B8D4C * L_8 = ___environmentProbe3;
 		NullCheck(L_4);
 		bool L_9;
-		L_9 = VirtFuncInvoker4< bool, Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , XREnvironmentProbe_t4D75B5DF95135D1BA45222CBE3E7677E823B8D4C * >::Invoke(12 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::TryAddEnvironmentProbe(UnityEngine.Pose,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.XR.ARSubsystems.XREnvironmentProbe&) */, L_4, L_5, L_6, L_7, (XREnvironmentProbe_t4D75B5DF95135D1BA45222CBE3E7677E823B8D4C *)L_8);
+		L_9 = VirtFuncInvoker4< bool, Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , XREnvironmentProbe_t4D75B5DF95135D1BA45222CBE3E7677E823B8D4C * >::Invoke(14 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::TryAddEnvironmentProbe(UnityEngine.Pose,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.XR.ARSubsystems.XREnvironmentProbe&) */, L_4, L_5, L_6, L_7, (XREnvironmentProbe_t4D75B5DF95135D1BA45222CBE3E7677E823B8D4C *)L_8);
 		return L_9;
 	}
 }
@@ -24160,7 +24210,7 @@ IL_0013:
 		TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  L_3 = ___trackableId0;
 		NullCheck(L_2);
 		bool L_4;
-		L_4 = VirtFuncInvoker1< bool, TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  >::Invoke(13 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::RemoveEnvironmentProbe(UnityEngine.XR.ARSubsystems.TrackableId) */, L_2, L_3);
+		L_4 = VirtFuncInvoker1< bool, TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  >::Invoke(15 /* System.Boolean UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystem/Provider::RemoveEnvironmentProbe(UnityEngine.XR.ARSubsystems.TrackableId) */, L_2, L_3);
 		return L_4;
 	}
 }
@@ -25869,7 +25919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRFaceSubsystem_get_requestedMaximumF
 		L_0 = SubsystemWithProvider_3_get_provider_m7268EA1F144252BD2FB5C9040498E13FF91D6A94_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m7268EA1F144252BD2FB5C9040498E13FF91D6A94_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(9 /* System.Int32 UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::get_requestedMaximumFaceCount() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::get_requestedMaximumFaceCount() */, L_0);
 		return L_1;
 	}
 }
@@ -25904,7 +25954,7 @@ IL_0014:
 		L_2 = SubsystemWithProvider_3_get_provider_m7268EA1F144252BD2FB5C9040498E13FF91D6A94_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m7268EA1F144252BD2FB5C9040498E13FF91D6A94_RuntimeMethod_var);
 		int32_t L_3 = ___value0;
 		NullCheck(L_2);
-		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::set_requestedMaximumFaceCount(System.Int32) */, L_2, L_3);
+		VirtActionInvoker1< int32_t >::Invoke(12 /* System.Void UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::set_requestedMaximumFaceCount(System.Int32) */, L_2, L_3);
 		// }
 		return;
 	}
@@ -25924,7 +25974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRFaceSubsystem_get_currentMaximumFac
 		L_0 = SubsystemWithProvider_3_get_provider_m7268EA1F144252BD2FB5C9040498E13FF91D6A94_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m7268EA1F144252BD2FB5C9040498E13FF91D6A94_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::get_currentMaximumFaceCount() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(13 /* System.Int32 UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::get_currentMaximumFaceCount() */, L_0);
 		return L_1;
 	}
 }
@@ -25943,7 +25993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRFaceSubsystem_get_supportedFaceCoun
 		L_0 = SubsystemWithProvider_3_get_provider_m7268EA1F144252BD2FB5C9040498E13FF91D6A94_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m7268EA1F144252BD2FB5C9040498E13FF91D6A94_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(8 /* System.Int32 UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::get_supportedFaceCount() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::get_supportedFaceCount() */, L_0);
 		return L_1;
 	}
 }
@@ -25981,7 +26031,7 @@ IL_000c:
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		TrackableChanges_1_t4155663F6D60090D5E988A2EB1E4A782792ADA63  L_3;
-		L_3 = VirtFuncInvoker2< TrackableChanges_1_t4155663F6D60090D5E988A2EB1E4A782792ADA63 , XRFace_tA970995ECE26D43D1CBB9058ABEC72B76D2DA599 , int32_t >::Invoke(7 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRFace> UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRFace,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< TrackableChanges_1_t4155663F6D60090D5E988A2EB1E4A782792ADA63 , XRFace_tA970995ECE26D43D1CBB9058ABEC72B76D2DA599 , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRFace> UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRFace,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		// return changes;
 		V_1 = L_3;
 		IL2CPP_LEAVE(0x2E, FINALLY_0020);
@@ -26071,7 +26121,7 @@ IL_002a:
 		int32_t L_6 = ___allocator1;
 		XRFaceMesh_t2ADC7E6069DCCCFB439A4A60DB9189338C9E1AD0 * L_7 = ___faceMesh2;
 		NullCheck(L_4);
-		VirtActionInvoker3< TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , int32_t, XRFaceMesh_t2ADC7E6069DCCCFB439A4A60DB9189338C9E1AD0 * >::Invoke(6 /* System.Void UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::GetFaceMesh(UnityEngine.XR.ARSubsystems.TrackableId,Unity.Collections.Allocator,UnityEngine.XR.ARSubsystems.XRFaceMesh&) */, L_4, L_5, L_6, (XRFaceMesh_t2ADC7E6069DCCCFB439A4A60DB9189338C9E1AD0 *)L_7);
+		VirtActionInvoker3< TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , int32_t, XRFaceMesh_t2ADC7E6069DCCCFB439A4A60DB9189338C9E1AD0 * >::Invoke(8 /* System.Void UnityEngine.XR.ARSubsystems.XRFaceSubsystem/Provider::GetFaceMesh(UnityEngine.XR.ARSubsystems.TrackableId,Unity.Collections.Allocator,UnityEngine.XR.ARSubsystems.XRFaceMesh&) */, L_4, L_5, L_6, (XRFaceMesh_t2ADC7E6069DCCCFB439A4A60DB9189338C9E1AD0 *)L_7);
 		IL2CPP_LEAVE(0x48, FINALLY_003a);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -26110,7 +26160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRFaceSubsystemDescriptor_get_supportsEy
 {
 	{
 		// public bool supportsEyeTracking { get; }
-		bool L_0 = __this->get_U3CsupportsEyeTrackingU3Ek__BackingField_3();
+		bool L_0 = __this->get_U3CsupportsEyeTrackingU3Ek__BackingField_7();
 		return L_0;
 	}
 }
@@ -26957,7 +27007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHumanBodySubsystem_get_pose2DRequested
 		L_0 = SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(6 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose2DRequested() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose2DRequested() */, L_0);
 		return L_1;
 	}
 }
@@ -26976,7 +27026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHumanBodySubsystem_set_pose2DRequested
 		L_0 = SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_RuntimeMethod_var);
 		bool L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< bool >::Invoke(7 /* System.Void UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::set_pose2DRequested(System.Boolean) */, L_0, L_1);
+		VirtActionInvoker1< bool >::Invoke(9 /* System.Void UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::set_pose2DRequested(System.Boolean) */, L_0, L_1);
 		return;
 	}
 }
@@ -26995,7 +27045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHumanBodySubsystem_get_pose2DEnabled_m
 		L_0 = SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose2DEnabled() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose2DEnabled() */, L_0);
 		return L_1;
 	}
 }
@@ -27014,7 +27064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHumanBodySubsystem_get_pose3DRequested
 		L_0 = SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose3DRequested() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose3DRequested() */, L_0);
 		return L_1;
 	}
 }
@@ -27033,7 +27083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHumanBodySubsystem_set_pose3DRequested
 		L_0 = SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_RuntimeMethod_var);
 		bool L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< bool >::Invoke(10 /* System.Void UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::set_pose3DRequested(System.Boolean) */, L_0, L_1);
+		VirtActionInvoker1< bool >::Invoke(12 /* System.Void UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::set_pose3DRequested(System.Boolean) */, L_0, L_1);
 		return;
 	}
 }
@@ -27052,7 +27102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHumanBodySubsystem_get_pose3DEnabled_m
 		L_0 = SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose3DEnabled() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(13 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose3DEnabled() */, L_0);
 		return L_1;
 	}
 }
@@ -27071,7 +27121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHumanBodySubsystem_get_pose3DScaleEsti
 		L_0 = SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(12 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose3DScaleEstimationRequested() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(14 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose3DScaleEstimationRequested() */, L_0);
 		return L_1;
 	}
 }
@@ -27090,7 +27140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHumanBodySubsystem_set_pose3DScaleEsti
 		L_0 = SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_RuntimeMethod_var);
 		bool L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< bool >::Invoke(13 /* System.Void UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::set_pose3DScaleEstimationRequested(System.Boolean) */, L_0, L_1);
+		VirtActionInvoker1< bool >::Invoke(15 /* System.Void UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::set_pose3DScaleEstimationRequested(System.Boolean) */, L_0, L_1);
 		return;
 	}
 }
@@ -27109,7 +27159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHumanBodySubsystem_get_pose3DScaleEsti
 		L_0 = SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mA2005E49DDE8743B9289D69764965D529FBB6844_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(14 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose3DScaleEstimationEnabled() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(16 /* System.Boolean UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::get_pose3DScaleEstimationEnabled() */, L_0);
 		return L_1;
 	}
 }
@@ -27149,7 +27199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t4BEBDDB9C8CBFF65EC7028CE5
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		TrackableChanges_1_t4BEBDDB9C8CBFF65EC7028CE5BA562A5728C8B82  L_3;
-		L_3 = VirtFuncInvoker2< TrackableChanges_1_t4BEBDDB9C8CBFF65EC7028CE5BA562A5728C8B82 , XRHumanBody_t1AA9DC3BEBCF86A64BE2B83452AC5704AD08C13B , int32_t >::Invoke(15 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRHumanBody> UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRHumanBody,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< TrackableChanges_1_t4BEBDDB9C8CBFF65EC7028CE5BA562A5728C8B82 , XRHumanBody_t1AA9DC3BEBCF86A64BE2B83452AC5704AD08C13B , int32_t >::Invoke(17 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRHumanBody> UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRHumanBody,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		return L_3;
 	}
 }
@@ -27170,7 +27220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHumanBodySubsystem_GetSkeleton_m32DBE0
 		int32_t L_2 = ___allocator1;
 		NativeArray_1_t733A71EE29E0C7D2F944E30A1729F085DEB1138C * L_3 = ___skeleton2;
 		NullCheck(L_0);
-		VirtActionInvoker3< TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , int32_t, NativeArray_1_t733A71EE29E0C7D2F944E30A1729F085DEB1138C * >::Invoke(16 /* System.Void UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::GetSkeleton(UnityEngine.XR.ARSubsystems.TrackableId,Unity.Collections.Allocator,Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRHumanBodyJoint>&) */, L_0, L_1, L_2, (NativeArray_1_t733A71EE29E0C7D2F944E30A1729F085DEB1138C *)L_3);
+		VirtActionInvoker3< TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , int32_t, NativeArray_1_t733A71EE29E0C7D2F944E30A1729F085DEB1138C * >::Invoke(18 /* System.Void UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::GetSkeleton(UnityEngine.XR.ARSubsystems.TrackableId,Unity.Collections.Allocator,Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRHumanBodyJoint>&) */, L_0, L_1, L_2, (NativeArray_1_t733A71EE29E0C7D2F944E30A1729F085DEB1138C *)L_3);
 		return;
 	}
 }
@@ -27201,7 +27251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7946EB09CA991D07040F6E500BA5CA
 		int32_t L_5 = ___allocator0;
 		NullCheck(L_0);
 		NativeArray_1_t7946EB09CA991D07040F6E500BA5CA3CECED5E52  L_6;
-		L_6 = VirtFuncInvoker5< NativeArray_1_t7946EB09CA991D07040F6E500BA5CA3CECED5E52 , XRHumanBodyPose2DJoint_t901EEB0FA2A9FF2D258978EC36EE0852FEF35BA4 , int32_t, int32_t, int32_t, int32_t >::Invoke(17 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRHumanBodyPose2DJoint> UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::GetHumanBodyPose2DJoints(UnityEngine.XR.ARSubsystems.XRHumanBodyPose2DJoint,System.Int32,System.Int32,UnityEngine.ScreenOrientation,Unity.Collections.Allocator) */, L_0, L_1, L_2, L_3, L_4, L_5);
+		L_6 = VirtFuncInvoker5< NativeArray_1_t7946EB09CA991D07040F6E500BA5CA3CECED5E52 , XRHumanBodyPose2DJoint_t901EEB0FA2A9FF2D258978EC36EE0852FEF35BA4 , int32_t, int32_t, int32_t, int32_t >::Invoke(19 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRHumanBodyPose2DJoint> UnityEngine.XR.ARSubsystems.XRHumanBodySubsystem/Provider::GetHumanBodyPose2DJoints(UnityEngine.XR.ARSubsystems.XRHumanBodyPose2DJoint,System.Int32,System.Int32,UnityEngine.ScreenOrientation,Unity.Collections.Allocator) */, L_0, L_1, L_2, L_3, L_4, L_5);
 		return L_6;
 	}
 }
@@ -27895,7 +27945,7 @@ IL_0013:
 		L_2 = SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_RuntimeMethod_var);
 		RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B * L_3 = __this->get_m_ImageLibrary_4();
 		NullCheck(L_2);
-		VirtActionInvoker1< RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B * >::Invoke(7 /* System.Void UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::set_imageLibrary(UnityEngine.XR.ARSubsystems.RuntimeReferenceImageLibrary) */, L_2, L_3);
+		VirtActionInvoker1< RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B * >::Invoke(9 /* System.Void UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::set_imageLibrary(UnityEngine.XR.ARSubsystems.RuntimeReferenceImageLibrary) */, L_2, L_3);
 		// base.OnStart();
 		SubsystemWithProvider_3_OnStart_m9491710090F756991A1C20AA8900B7A605EC1DD8(__this, /*hidden argument*/SubsystemWithProvider_3_OnStart_m9491710090F756991A1C20AA8900B7A605EC1DD8_RuntimeMethod_var);
 		// }
@@ -27919,7 +27969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRImageTrackingSubsystem_OnStop_mDC92A8E
 		Provider_tA7CEF856C3BC486ADEBD656F5535E24262AAAE9E * L_0;
 		L_0 = SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_RuntimeMethod_var);
 		NullCheck(L_0);
-		VirtActionInvoker1< RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B * >::Invoke(7 /* System.Void UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::set_imageLibrary(UnityEngine.XR.ARSubsystems.RuntimeReferenceImageLibrary) */, L_0, (RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B *)NULL);
+		VirtActionInvoker1< RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B * >::Invoke(9 /* System.Void UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::set_imageLibrary(UnityEngine.XR.ARSubsystems.RuntimeReferenceImageLibrary) */, L_0, (RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B *)NULL);
 		// }
 		return;
 	}
@@ -27999,7 +28049,7 @@ IL_0025:
 		L_7 = SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_RuntimeMethod_var);
 		RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B * L_8 = __this->get_m_ImageLibrary_4();
 		NullCheck(L_7);
-		VirtActionInvoker1< RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B * >::Invoke(7 /* System.Void UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::set_imageLibrary(UnityEngine.XR.ARSubsystems.RuntimeReferenceImageLibrary) */, L_7, L_8);
+		VirtActionInvoker1< RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B * >::Invoke(9 /* System.Void UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::set_imageLibrary(UnityEngine.XR.ARSubsystems.RuntimeReferenceImageLibrary) */, L_7, L_8);
 	}
 
 IL_0045:
@@ -28024,7 +28074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeReferenceImageLibrary_t76072EC5637B1F0
 		XRReferenceImageLibrary_tC415743C1DDCE2331D5B0F159B2A1D72A70C44B2 * L_1 = ___serializedLibrary0;
 		NullCheck(L_0);
 		RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B * L_2;
-		L_2 = VirtFuncInvoker1< RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B *, XRReferenceImageLibrary_tC415743C1DDCE2331D5B0F159B2A1D72A70C44B2 * >::Invoke(8 /* UnityEngine.XR.ARSubsystems.RuntimeReferenceImageLibrary UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::CreateRuntimeLibrary(UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< RuntimeReferenceImageLibrary_t76072EC5637B1F0F8FD0A1BFD3AEAF954D6F8D6B *, XRReferenceImageLibrary_tC415743C1DDCE2331D5B0F159B2A1D72A70C44B2 * >::Invoke(10 /* UnityEngine.XR.ARSubsystems.RuntimeReferenceImageLibrary UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::CreateRuntimeLibrary(UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary) */, L_0, L_1);
 		// return library;
 		return L_2;
 	}
@@ -28049,7 +28099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tDE6975A36D16B9E01B5B7D815
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		TrackableChanges_1_tDE6975A36D16B9E01B5B7D815A77EDD62A3EA629  L_3;
-		L_3 = VirtFuncInvoker2< TrackableChanges_1_tDE6975A36D16B9E01B5B7D815A77EDD62A3EA629 , XRTrackedImage_t92B53E0621C6D2E930761110E719F0E9580A722F , int32_t >::Invoke(6 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRTrackedImage> UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRTrackedImage,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< TrackableChanges_1_tDE6975A36D16B9E01B5B7D815A77EDD62A3EA629 , XRTrackedImage_t92B53E0621C6D2E930761110E719F0E9580A722F , int32_t >::Invoke(8 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRTrackedImage> UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRTrackedImage,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		// return changes;
 		return L_3;
 	}
@@ -28069,7 +28119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRImageTrackingSubsystem_get_requeste
 		L_0 = SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(9 /* System.Int32 UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::get_requestedMaxNumberOfMovingImages() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::get_requestedMaxNumberOfMovingImages() */, L_0);
 		return L_1;
 	}
 }
@@ -28088,7 +28138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRImageTrackingSubsystem_set_requestedMa
 		L_0 = SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_RuntimeMethod_var);
 		int32_t L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::set_requestedMaxNumberOfMovingImages(System.Int32) */, L_0, L_1);
+		VirtActionInvoker1< int32_t >::Invoke(12 /* System.Void UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::set_requestedMaxNumberOfMovingImages(System.Int32) */, L_0, L_1);
 		return;
 	}
 }
@@ -28107,7 +28157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRImageTrackingSubsystem_get_currentM
 		L_0 = SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m393DEC1B8D524D0F4A15B4EE1910C76837EBC016_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::get_currentMaxNumberOfMovingImages() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(13 /* System.Int32 UnityEngine.XR.ARSubsystems.XRImageTrackingSubsystem/Provider::get_currentMaxNumberOfMovingImages() */, L_0);
 		return L_1;
 	}
 }
@@ -28253,7 +28303,7 @@ IL_0019:
 		L_3 = SubsystemWithProvider_3_get_provider_m9B77B21DAADA9FF130071DE4A5091BF7BE32C963_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m9B77B21DAADA9FF130071DE4A5091BF7BE32C963_RuntimeMethod_var);
 		XRReferenceObjectLibrary_t07704B2996E507F23EE3C99CFC3BB73A83C99A7C * L_4 = __this->get_m_Library_4();
 		NullCheck(L_3);
-		VirtActionInvoker1< XRReferenceObjectLibrary_t07704B2996E507F23EE3C99CFC3BB73A83C99A7C * >::Invoke(7 /* System.Void UnityEngine.XR.ARSubsystems.XRObjectTrackingSubsystem/Provider::set_library(UnityEngine.XR.ARSubsystems.XRReferenceObjectLibrary) */, L_3, L_4);
+		VirtActionInvoker1< XRReferenceObjectLibrary_t07704B2996E507F23EE3C99CFC3BB73A83C99A7C * >::Invoke(9 /* System.Void UnityEngine.XR.ARSubsystems.XRObjectTrackingSubsystem/Provider::set_library(UnityEngine.XR.ARSubsystems.XRReferenceObjectLibrary) */, L_3, L_4);
 		// base.OnStart();
 		SubsystemWithProvider_3_OnStart_m025E4FC17E65F6E4F5CCAF97A105B69055BFA72C(__this, /*hidden argument*/SubsystemWithProvider_3_OnStart_m025E4FC17E65F6E4F5CCAF97A105B69055BFA72C_RuntimeMethod_var);
 		// }
@@ -28333,7 +28383,7 @@ IL_002b:
 		L_9 = SubsystemWithProvider_3_get_provider_m9B77B21DAADA9FF130071DE4A5091BF7BE32C963_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m9B77B21DAADA9FF130071DE4A5091BF7BE32C963_RuntimeMethod_var);
 		XRReferenceObjectLibrary_t07704B2996E507F23EE3C99CFC3BB73A83C99A7C * L_10 = __this->get_m_Library_4();
 		NullCheck(L_9);
-		VirtActionInvoker1< XRReferenceObjectLibrary_t07704B2996E507F23EE3C99CFC3BB73A83C99A7C * >::Invoke(7 /* System.Void UnityEngine.XR.ARSubsystems.XRObjectTrackingSubsystem/Provider::set_library(UnityEngine.XR.ARSubsystems.XRReferenceObjectLibrary) */, L_9, L_10);
+		VirtActionInvoker1< XRReferenceObjectLibrary_t07704B2996E507F23EE3C99CFC3BB73A83C99A7C * >::Invoke(9 /* System.Void UnityEngine.XR.ARSubsystems.XRObjectTrackingSubsystem/Provider::set_library(UnityEngine.XR.ARSubsystems.XRReferenceObjectLibrary) */, L_9, L_10);
 	}
 
 IL_004b:
@@ -28357,7 +28407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRObjectTrackingSubsystem_OnStop_m4E9120
 		Provider_t35977A2A0AA6C338BC9893668DD32F0294A9C01E * L_0;
 		L_0 = SubsystemWithProvider_3_get_provider_m9B77B21DAADA9FF130071DE4A5091BF7BE32C963_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m9B77B21DAADA9FF130071DE4A5091BF7BE32C963_RuntimeMethod_var);
 		NullCheck(L_0);
-		VirtActionInvoker1< XRReferenceObjectLibrary_t07704B2996E507F23EE3C99CFC3BB73A83C99A7C * >::Invoke(7 /* System.Void UnityEngine.XR.ARSubsystems.XRObjectTrackingSubsystem/Provider::set_library(UnityEngine.XR.ARSubsystems.XRReferenceObjectLibrary) */, L_0, (XRReferenceObjectLibrary_t07704B2996E507F23EE3C99CFC3BB73A83C99A7C *)NULL);
+		VirtActionInvoker1< XRReferenceObjectLibrary_t07704B2996E507F23EE3C99CFC3BB73A83C99A7C * >::Invoke(9 /* System.Void UnityEngine.XR.ARSubsystems.XRObjectTrackingSubsystem/Provider::set_library(UnityEngine.XR.ARSubsystems.XRReferenceObjectLibrary) */, L_0, (XRReferenceObjectLibrary_t07704B2996E507F23EE3C99CFC3BB73A83C99A7C *)NULL);
 		// base.OnStop();
 		SubsystemWithProvider_3_OnStop_m8EE2F25172A34C63EE5D2C8AF6D8FDA7B312B791(__this, /*hidden argument*/SubsystemWithProvider_3_OnStop_m8EE2F25172A34C63EE5D2C8AF6D8FDA7B312B791_RuntimeMethod_var);
 		// }
@@ -28384,7 +28434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t388C13B0BF202AE5F24D0BB3A
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		TrackableChanges_1_t388C13B0BF202AE5F24D0BB3AE0D672AA355E1B1  L_3;
-		L_3 = VirtFuncInvoker2< TrackableChanges_1_t388C13B0BF202AE5F24D0BB3AE0D672AA355E1B1 , XRTrackedObject_t247BBE67D4F9308544C4BAD807F321E0C404EC58 , int32_t >::Invoke(6 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRTrackedObject> UnityEngine.XR.ARSubsystems.XRObjectTrackingSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRTrackedObject,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< TrackableChanges_1_t388C13B0BF202AE5F24D0BB3AE0D672AA355E1B1 , XRTrackedObject_t247BBE67D4F9308544C4BAD807F321E0C404EC58 , int32_t >::Invoke(8 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRTrackedObject> UnityEngine.XR.ARSubsystems.XRObjectTrackingSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRTrackedObject,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		// return changes;
 		return L_3;
 	}
@@ -28458,7 +28508,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XROcclusionSubsystem_get_requestedHum
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(6 /* UnityEngine.XR.ARSubsystems.HumanSegmentationStencilMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_requestedHumanStencilMode() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(8 /* UnityEngine.XR.ARSubsystems.HumanSegmentationStencilMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_requestedHumanStencilMode() */, L_0);
 		return L_1;
 	}
 }
@@ -28477,7 +28527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XROcclusionSubsystem_set_requestedHumanS
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		int32_t L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(7 /* System.Void UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::set_requestedHumanStencilMode(UnityEngine.XR.ARSubsystems.HumanSegmentationStencilMode) */, L_0, L_1);
+		VirtActionInvoker1< int32_t >::Invoke(9 /* System.Void UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::set_requestedHumanStencilMode(UnityEngine.XR.ARSubsystems.HumanSegmentationStencilMode) */, L_0, L_1);
 		return;
 	}
 }
@@ -28496,7 +28546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XROcclusionSubsystem_get_currentHuman
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(8 /* UnityEngine.XR.ARSubsystems.HumanSegmentationStencilMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_currentHumanStencilMode() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(10 /* UnityEngine.XR.ARSubsystems.HumanSegmentationStencilMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_currentHumanStencilMode() */, L_0);
 		return L_1;
 	}
 }
@@ -28515,7 +28565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XROcclusionSubsystem_get_requestedHum
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.HumanSegmentationDepthMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_requestedHumanDepthMode() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(11 /* UnityEngine.XR.ARSubsystems.HumanSegmentationDepthMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_requestedHumanDepthMode() */, L_0);
 		return L_1;
 	}
 }
@@ -28534,7 +28584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XROcclusionSubsystem_set_requestedHumanD
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		int32_t L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::set_requestedHumanDepthMode(UnityEngine.XR.ARSubsystems.HumanSegmentationDepthMode) */, L_0, L_1);
+		VirtActionInvoker1< int32_t >::Invoke(12 /* System.Void UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::set_requestedHumanDepthMode(UnityEngine.XR.ARSubsystems.HumanSegmentationDepthMode) */, L_0, L_1);
 		return;
 	}
 }
@@ -28553,7 +28603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XROcclusionSubsystem_get_currentHuman
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(11 /* UnityEngine.XR.ARSubsystems.HumanSegmentationDepthMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_currentHumanDepthMode() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(13 /* UnityEngine.XR.ARSubsystems.HumanSegmentationDepthMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_currentHumanDepthMode() */, L_0);
 		return L_1;
 	}
 }
@@ -28572,7 +28622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XROcclusionSubsystem_get_requestedEnv
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(12 /* UnityEngine.XR.ARSubsystems.EnvironmentDepthMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_requestedEnvironmentDepthMode() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.EnvironmentDepthMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_requestedEnvironmentDepthMode() */, L_0);
 		return L_1;
 	}
 }
@@ -28591,7 +28641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XROcclusionSubsystem_set_requestedEnviro
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		int32_t L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(13 /* System.Void UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::set_requestedEnvironmentDepthMode(UnityEngine.XR.ARSubsystems.EnvironmentDepthMode) */, L_0, L_1);
+		VirtActionInvoker1< int32_t >::Invoke(15 /* System.Void UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::set_requestedEnvironmentDepthMode(UnityEngine.XR.ARSubsystems.EnvironmentDepthMode) */, L_0, L_1);
 		return;
 	}
 }
@@ -28610,7 +28660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XROcclusionSubsystem_get_currentEnvir
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.EnvironmentDepthMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_currentEnvironmentDepthMode() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(16 /* UnityEngine.XR.ARSubsystems.EnvironmentDepthMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_currentEnvironmentDepthMode() */, L_0);
 		return L_1;
 	}
 }
@@ -28629,7 +28679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XROcclusionSubsystem_get_requestedOcc
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(15 /* UnityEngine.XR.ARSubsystems.OcclusionPreferenceMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_requestedOcclusionPreferenceMode() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(17 /* UnityEngine.XR.ARSubsystems.OcclusionPreferenceMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_requestedOcclusionPreferenceMode() */, L_0);
 		return L_1;
 	}
 }
@@ -28648,7 +28698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XROcclusionSubsystem_set_requestedOcclus
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		int32_t L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::set_requestedOcclusionPreferenceMode(UnityEngine.XR.ARSubsystems.OcclusionPreferenceMode) */, L_0, L_1);
+		VirtActionInvoker1< int32_t >::Invoke(18 /* System.Void UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::set_requestedOcclusionPreferenceMode(UnityEngine.XR.ARSubsystems.OcclusionPreferenceMode) */, L_0, L_1);
 		return;
 	}
 }
@@ -28667,7 +28717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XROcclusionSubsystem_get_currentOcclu
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(17 /* UnityEngine.XR.ARSubsystems.OcclusionPreferenceMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_currentOcclusionPreferenceMode() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(19 /* UnityEngine.XR.ARSubsystems.OcclusionPreferenceMode UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_currentOcclusionPreferenceMode() */, L_0);
 		return L_1;
 	}
 }
@@ -28703,7 +28753,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryGetHumanStencil_
 		XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * L_1 = ___humanStencilDescriptor0;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtFuncInvoker1< bool, XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * >::Invoke(18 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryGetHumanStencil(UnityEngine.XR.ARSubsystems.XRTextureDescriptor&) */, L_0, (XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 *)L_1);
+		L_2 = VirtFuncInvoker1< bool, XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * >::Invoke(20 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryGetHumanStencil(UnityEngine.XR.ARSubsystems.XRTextureDescriptor&) */, L_0, (XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 *)L_1);
 		return L_2;
 	}
 }
@@ -28724,7 +28774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireHumanSten
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * L_1;
-		L_1 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(20 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_humanStencilCpuImageApi() */, L_0);
+		L_1 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(22 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_humanStencilCpuImageApi() */, L_0);
 		if (!L_1)
 		{
 			goto IL_0035;
@@ -28735,7 +28785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireHumanSten
 		L_2 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 * >::Invoke(19 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryAcquireHumanStencilCpuImage(UnityEngine.XR.ARSubsystems.XRCpuImage/Cinfo&) */, L_2, (Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 *)(&V_0));
+		L_3 = VirtFuncInvoker1< bool, Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 * >::Invoke(21 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryAcquireHumanStencilCpuImage(UnityEngine.XR.ARSubsystems.XRCpuImage/Cinfo&) */, L_2, (Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 *)(&V_0));
 		if (!L_3)
 		{
 			goto IL_0035;
@@ -28748,7 +28798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireHumanSten
 		L_5 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_5);
 		Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * L_6;
-		L_6 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(20 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_humanStencilCpuImageApi() */, L_5);
+		L_6 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(22 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_humanStencilCpuImageApi() */, L_5);
 		Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6  L_7 = V_0;
 		XRCpuImage_tA48C0687D95D3D63D1101E4E08EFCF0ABB2431CE  L_8;
 		memset((&L_8), 0, sizeof(L_8));
@@ -28784,7 +28834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryGetHumanDepth_m8
 		XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * L_1 = ___humanDepthDescriptor0;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtFuncInvoker1< bool, XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * >::Invoke(21 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryGetHumanDepth(UnityEngine.XR.ARSubsystems.XRTextureDescriptor&) */, L_0, (XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 *)L_1);
+		L_2 = VirtFuncInvoker1< bool, XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * >::Invoke(23 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryGetHumanDepth(UnityEngine.XR.ARSubsystems.XRTextureDescriptor&) */, L_0, (XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 *)L_1);
 		return L_2;
 	}
 }
@@ -28805,7 +28855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireHumanDept
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * L_1;
-		L_1 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(23 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_humanDepthCpuImageApi() */, L_0);
+		L_1 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(25 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_humanDepthCpuImageApi() */, L_0);
 		if (!L_1)
 		{
 			goto IL_0035;
@@ -28816,7 +28866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireHumanDept
 		L_2 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 * >::Invoke(22 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryAcquireHumanDepthCpuImage(UnityEngine.XR.ARSubsystems.XRCpuImage/Cinfo&) */, L_2, (Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 *)(&V_0));
+		L_3 = VirtFuncInvoker1< bool, Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 * >::Invoke(24 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryAcquireHumanDepthCpuImage(UnityEngine.XR.ARSubsystems.XRCpuImage/Cinfo&) */, L_2, (Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 *)(&V_0));
 		if (!L_3)
 		{
 			goto IL_0035;
@@ -28829,7 +28879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireHumanDept
 		L_5 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_5);
 		Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * L_6;
-		L_6 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(23 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_humanDepthCpuImageApi() */, L_5);
+		L_6 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(25 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_humanDepthCpuImageApi() */, L_5);
 		Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6  L_7 = V_0;
 		XRCpuImage_tA48C0687D95D3D63D1101E4E08EFCF0ABB2431CE  L_8;
 		memset((&L_8), 0, sizeof(L_8));
@@ -28865,7 +28915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryGetEnvironmentDe
 		XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * L_1 = ___environmentDepthDescriptor0;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtFuncInvoker1< bool, XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * >::Invoke(24 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryGetEnvironmentDepth(UnityEngine.XR.ARSubsystems.XRTextureDescriptor&) */, L_0, (XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 *)L_1);
+		L_2 = VirtFuncInvoker1< bool, XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * >::Invoke(26 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryGetEnvironmentDepth(UnityEngine.XR.ARSubsystems.XRTextureDescriptor&) */, L_0, (XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 *)L_1);
 		return L_2;
 	}
 }
@@ -28886,7 +28936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireEnvironme
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * L_1;
-		L_1 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(26 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_environmentDepthCpuImageApi() */, L_0);
+		L_1 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(28 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_environmentDepthCpuImageApi() */, L_0);
 		if (!L_1)
 		{
 			goto IL_0035;
@@ -28897,7 +28947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireEnvironme
 		L_2 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 * >::Invoke(25 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryAcquireEnvironmentDepthCpuImage(UnityEngine.XR.ARSubsystems.XRCpuImage/Cinfo&) */, L_2, (Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 *)(&V_0));
+		L_3 = VirtFuncInvoker1< bool, Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 * >::Invoke(27 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryAcquireEnvironmentDepthCpuImage(UnityEngine.XR.ARSubsystems.XRCpuImage/Cinfo&) */, L_2, (Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 *)(&V_0));
 		if (!L_3)
 		{
 			goto IL_0035;
@@ -28910,7 +28960,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireEnvironme
 		L_5 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_5);
 		Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * L_6;
-		L_6 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(26 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_environmentDepthCpuImageApi() */, L_5);
+		L_6 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(28 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_environmentDepthCpuImageApi() */, L_5);
 		Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6  L_7 = V_0;
 		XRCpuImage_tA48C0687D95D3D63D1101E4E08EFCF0ABB2431CE  L_8;
 		memset((&L_8), 0, sizeof(L_8));
@@ -28946,7 +28996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryGetEnvironmentDe
 		XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * L_1 = ___environmentDepthConfidenceDescriptor0;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtFuncInvoker1< bool, XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * >::Invoke(27 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryGetEnvironmentDepthConfidence(UnityEngine.XR.ARSubsystems.XRTextureDescriptor&) */, L_0, (XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 *)L_1);
+		L_2 = VirtFuncInvoker1< bool, XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 * >::Invoke(29 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryGetEnvironmentDepthConfidence(UnityEngine.XR.ARSubsystems.XRTextureDescriptor&) */, L_0, (XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 *)L_1);
 		return L_2;
 	}
 }
@@ -28967,7 +29017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireEnvironme
 		L_0 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_0);
 		Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * L_1;
-		L_1 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(29 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_environmentDepthConfidenceCpuImageApi() */, L_0);
+		L_1 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(31 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_environmentDepthConfidenceCpuImageApi() */, L_0);
 		if (!L_1)
 		{
 			goto IL_0035;
@@ -28978,7 +29028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireEnvironme
 		L_2 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 * >::Invoke(28 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryAcquireEnvironmentDepthConfidenceCpuImage(UnityEngine.XR.ARSubsystems.XRCpuImage/Cinfo&) */, L_2, (Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 *)(&V_0));
+		L_3 = VirtFuncInvoker1< bool, Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 * >::Invoke(30 /* System.Boolean UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::TryAcquireEnvironmentDepthConfidenceCpuImage(UnityEngine.XR.ARSubsystems.XRCpuImage/Cinfo&) */, L_2, (Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6 *)(&V_0));
 		if (!L_3)
 		{
 			goto IL_0035;
@@ -28991,7 +29041,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XROcclusionSubsystem_TryAcquireEnvironme
 		L_5 = SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m81730A811D7512001F84071740C58DD919EF6FE1_RuntimeMethod_var);
 		NullCheck(L_5);
 		Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * L_6;
-		L_6 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(26 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_environmentDepthCpuImageApi() */, L_5);
+		L_6 = VirtFuncInvoker0< Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * >::Invoke(28 /* UnityEngine.XR.ARSubsystems.XRCpuImage/Api UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::get_environmentDepthCpuImageApi() */, L_5);
 		Cinfo_t4E32E30AF6973611F1DD0F47FC041ED3A8775DA6  L_7 = V_0;
 		XRCpuImage_tA48C0687D95D3D63D1101E4E08EFCF0ABB2431CE  L_8;
 		memset((&L_8), 0, sizeof(L_8));
@@ -29031,7 +29081,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t290DD5A348463DD4415AFE27775047
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		NativeArray_1_t290DD5A348463DD4415AFE27775047312478F952  L_3;
-		L_3 = VirtFuncInvoker2< NativeArray_1_t290DD5A348463DD4415AFE27775047312478F952 , XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 , int32_t >::Invoke(30 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRTextureDescriptor> UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::GetTextureDescriptors(UnityEngine.XR.ARSubsystems.XRTextureDescriptor,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< NativeArray_1_t290DD5A348463DD4415AFE27775047312478F952 , XRTextureDescriptor_t9CA857DCCC1208B74376787BE4F3008A01B29A57 , int32_t >::Invoke(32 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRTextureDescriptor> UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::GetTextureDescriptors(UnityEngine.XR.ARSubsystems.XRTextureDescriptor,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		return L_3;
 	}
 }
@@ -29051,7 +29101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XROcclusionSubsystem_GetMaterialKeywords
 		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 ** L_1 = ___enabledKeywords0;
 		List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 ** L_2 = ___disabledKeywords1;
 		NullCheck(L_0);
-		VirtActionInvoker2< List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **, List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 ** >::Invoke(31 /* System.Void UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::GetMaterialKeywords(System.Collections.Generic.List`1<System.String>&,System.Collections.Generic.List`1<System.String>&) */, L_0, (List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **)L_1, (List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **)L_2);
+		VirtActionInvoker2< List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **, List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 ** >::Invoke(33 /* System.Void UnityEngine.XR.ARSubsystems.XROcclusionSubsystem/Provider::GetMaterialKeywords(System.Collections.Generic.List`1<System.String>&,System.Collections.Generic.List`1<System.String>&) */, L_0, (List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **)L_1, (List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3 **)L_2);
 		return;
 	}
 }
@@ -30127,7 +30177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_tCBDEADFC15FC0570F012431A5
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		TrackableChanges_1_tCBDEADFC15FC0570F012431A5227C2E6B92BAC3F  L_3;
-		L_3 = VirtFuncInvoker2< TrackableChanges_1_tCBDEADFC15FC0570F012431A5227C2E6B92BAC3F , XRParticipant_t8CFF46A2CDD860A7591AD0FC0EE563458C8FA13F , int32_t >::Invoke(6 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRParticipant> UnityEngine.XR.ARSubsystems.XRParticipantSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRParticipant,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< TrackableChanges_1_tCBDEADFC15FC0570F012431A5227C2E6B92BAC3F , XRParticipant_t8CFF46A2CDD860A7591AD0FC0EE563458C8FA13F , int32_t >::Invoke(8 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRParticipant> UnityEngine.XR.ARSubsystems.XRParticipantSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRParticipant,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		// return changes;
 		return L_3;
 	}
@@ -30217,7 +30267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRPlaneSubsystem_get_requestedPlaneDe
 		L_0 = SubsystemWithProvider_3_get_provider_mAA0B384C82E784EFEEE8ABCC29FCCB1AE4106ED3_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mAA0B384C82E784EFEEE8ABCC29FCCB1AE4106ED3_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(8 /* UnityEngine.XR.ARSubsystems.PlaneDetectionMode UnityEngine.XR.ARSubsystems.XRPlaneSubsystem/Provider::get_requestedPlaneDetectionMode() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(10 /* UnityEngine.XR.ARSubsystems.PlaneDetectionMode UnityEngine.XR.ARSubsystems.XRPlaneSubsystem/Provider::get_requestedPlaneDetectionMode() */, L_0);
 		return L_1;
 	}
 }
@@ -30236,7 +30286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPlaneSubsystem_set_requestedPlaneDetec
 		L_0 = SubsystemWithProvider_3_get_provider_mAA0B384C82E784EFEEE8ABCC29FCCB1AE4106ED3_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mAA0B384C82E784EFEEE8ABCC29FCCB1AE4106ED3_RuntimeMethod_var);
 		int32_t L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< int32_t >::Invoke(9 /* System.Void UnityEngine.XR.ARSubsystems.XRPlaneSubsystem/Provider::set_requestedPlaneDetectionMode(UnityEngine.XR.ARSubsystems.PlaneDetectionMode) */, L_0, L_1);
+		VirtActionInvoker1< int32_t >::Invoke(11 /* System.Void UnityEngine.XR.ARSubsystems.XRPlaneSubsystem/Provider::set_requestedPlaneDetectionMode(UnityEngine.XR.ARSubsystems.PlaneDetectionMode) */, L_0, L_1);
 		return;
 	}
 }
@@ -30255,7 +30305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRPlaneSubsystem_get_currentPlaneDete
 		L_0 = SubsystemWithProvider_3_get_provider_mAA0B384C82E784EFEEE8ABCC29FCCB1AE4106ED3_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_mAA0B384C82E784EFEEE8ABCC29FCCB1AE4106ED3_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(10 /* UnityEngine.XR.ARSubsystems.PlaneDetectionMode UnityEngine.XR.ARSubsystems.XRPlaneSubsystem/Provider::get_currentPlaneDetectionMode() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(12 /* UnityEngine.XR.ARSubsystems.PlaneDetectionMode UnityEngine.XR.ARSubsystems.XRPlaneSubsystem/Provider::get_currentPlaneDetectionMode() */, L_0);
 		return L_1;
 	}
 }
@@ -30279,7 +30329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t8B0834EED4AC44A71FC9071BD
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		TrackableChanges_1_t8B0834EED4AC44A71FC9071BDA349BA9D8FE0717  L_3;
-		L_3 = VirtFuncInvoker2< TrackableChanges_1_t8B0834EED4AC44A71FC9071BDA349BA9D8FE0717 , BoundedPlane_t9001963C43ACDF4CDEA8BBF97CD783B7969B79C5 , int32_t >::Invoke(7 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.BoundedPlane> UnityEngine.XR.ARSubsystems.XRPlaneSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.BoundedPlane,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< TrackableChanges_1_t8B0834EED4AC44A71FC9071BDA349BA9D8FE0717 , BoundedPlane_t9001963C43ACDF4CDEA8BBF97CD783B7969B79C5 , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.BoundedPlane> UnityEngine.XR.ARSubsystems.XRPlaneSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.BoundedPlane,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		// return changes;
 		return L_3;
 	}
@@ -30333,7 +30383,7 @@ IL_001e:
 		int32_t L_6 = ___allocator1;
 		NativeArray_1_t431C85F30275831D1F5D458AB73DFCE050693BC0 * L_7 = ___boundary2;
 		NullCheck(L_4);
-		VirtActionInvoker3< TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , int32_t, NativeArray_1_t431C85F30275831D1F5D458AB73DFCE050693BC0 * >::Invoke(6 /* System.Void UnityEngine.XR.ARSubsystems.XRPlaneSubsystem/Provider::GetBoundary(UnityEngine.XR.ARSubsystems.TrackableId,Unity.Collections.Allocator,Unity.Collections.NativeArray`1<UnityEngine.Vector2>&) */, L_4, L_5, L_6, (NativeArray_1_t431C85F30275831D1F5D458AB73DFCE050693BC0 *)L_7);
+		VirtActionInvoker3< TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , int32_t, NativeArray_1_t431C85F30275831D1F5D458AB73DFCE050693BC0 * >::Invoke(8 /* System.Void UnityEngine.XR.ARSubsystems.XRPlaneSubsystem/Provider::GetBoundary(UnityEngine.XR.ARSubsystems.TrackableId,Unity.Collections.Allocator,Unity.Collections.NativeArray`1<UnityEngine.Vector2>&) */, L_4, L_5, L_6, (NativeArray_1_t431C85F30275831D1F5D458AB73DFCE050693BC0 *)L_7);
 		// }
 		return;
 	}
@@ -31738,7 +31788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TrackableChanges_1_t092C2BBB89690C350B949DDFF
 		int32_t L_2 = ___allocator0;
 		NullCheck(L_0);
 		TrackableChanges_1_t092C2BBB89690C350B949DDFFA9F551F85536ED3  L_3;
-		L_3 = VirtFuncInvoker2< TrackableChanges_1_t092C2BBB89690C350B949DDFFA9F551F85536ED3 , XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRRaycast> UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRRaycast,Unity.Collections.Allocator) */, L_0, L_1, L_2);
+		L_3 = VirtFuncInvoker2< TrackableChanges_1_t092C2BBB89690C350B949DDFFA9F551F85536ED3 , XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 , int32_t >::Invoke(11 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRRaycast> UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRRaycast,Unity.Collections.Allocator) */, L_0, L_1, L_2);
 		// return changes;
 		return L_3;
 	}
@@ -31761,7 +31811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRRaycastSubsystem_TryAddRaycast_mADDC2D
 		XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 * L_3 = ___raycast2;
 		NullCheck(L_0);
 		bool L_4;
-		L_4 = VirtFuncInvoker3< bool, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 , float, XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 * >::Invoke(6 /* System.Boolean UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::TryAddRaycast(UnityEngine.Vector2,System.Single,UnityEngine.XR.ARSubsystems.XRRaycast&) */, L_0, L_1, L_2, (XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 *)L_3);
+		L_4 = VirtFuncInvoker3< bool, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 , float, XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 * >::Invoke(8 /* System.Boolean UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::TryAddRaycast(UnityEngine.Vector2,System.Single,UnityEngine.XR.ARSubsystems.XRRaycast&) */, L_0, L_1, L_2, (XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 *)L_3);
 		return L_4;
 	}
 }
@@ -31783,7 +31833,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRRaycastSubsystem_TryAddRaycast_m0E3CB3
 		XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 * L_3 = ___raycast2;
 		NullCheck(L_0);
 		bool L_4;
-		L_4 = VirtFuncInvoker3< bool, Ray_t2E9E67CC8B03EE6ED2BBF3D2C9C96DDF70E1D5E6 , float, XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 * >::Invoke(7 /* System.Boolean UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::TryAddRaycast(UnityEngine.Ray,System.Single,UnityEngine.XR.ARSubsystems.XRRaycast&) */, L_0, L_1, L_2, (XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 *)L_3);
+		L_4 = VirtFuncInvoker3< bool, Ray_t2E9E67CC8B03EE6ED2BBF3D2C9C96DDF70E1D5E6 , float, XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 * >::Invoke(9 /* System.Boolean UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::TryAddRaycast(UnityEngine.Ray,System.Single,UnityEngine.XR.ARSubsystems.XRRaycast&) */, L_0, L_1, L_2, (XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 *)L_3);
 		return L_4;
 	}
 }
@@ -31802,7 +31852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRRaycastSubsystem_RemoveRaycast_mD6B803
 		L_0 = SubsystemWithProvider_3_get_provider_m080533A05983B6767F8B3470E127A772D0D59530_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m080533A05983B6767F8B3470E127A772D0D59530_RuntimeMethod_var);
 		TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  L_1 = ___trackableId0;
 		NullCheck(L_0);
-		VirtActionInvoker1< TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  >::Invoke(8 /* System.Void UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::RemoveRaycast(UnityEngine.XR.ARSubsystems.TrackableId) */, L_0, L_1);
+		VirtActionInvoker1< TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  >::Invoke(10 /* System.Void UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::RemoveRaycast(UnityEngine.XR.ARSubsystems.TrackableId) */, L_0, L_1);
 		return;
 	}
 }
@@ -31828,7 +31878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t35F2E89DF840C06C68595E9289A07A
 		int32_t L_4 = ___allocator2;
 		NullCheck(L_0);
 		NativeArray_1_t35F2E89DF840C06C68595E9289A07A26CBB07FCB  L_5;
-		L_5 = VirtFuncInvoker4< NativeArray_1_t35F2E89DF840C06C68595E9289A07A26CBB07FCB , XRRaycastHit_t94A3D13B245A9D0A7A7F2D0919DCAAC7C8DF8DDB , Ray_t2E9E67CC8B03EE6ED2BBF3D2C9C96DDF70E1D5E6 , int32_t, int32_t >::Invoke(10 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit> UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::Raycast(UnityEngine.XR.ARSubsystems.XRRaycastHit,UnityEngine.Ray,UnityEngine.XR.ARSubsystems.TrackableType,Unity.Collections.Allocator) */, L_0, L_1, L_2, L_3, L_4);
+		L_5 = VirtFuncInvoker4< NativeArray_1_t35F2E89DF840C06C68595E9289A07A26CBB07FCB , XRRaycastHit_t94A3D13B245A9D0A7A7F2D0919DCAAC7C8DF8DDB , Ray_t2E9E67CC8B03EE6ED2BBF3D2C9C96DDF70E1D5E6 , int32_t, int32_t >::Invoke(12 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit> UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::Raycast(UnityEngine.XR.ARSubsystems.XRRaycastHit,UnityEngine.Ray,UnityEngine.XR.ARSubsystems.TrackableType,Unity.Collections.Allocator) */, L_0, L_1, L_2, L_3, L_4);
 		return L_5;
 	}
 }
@@ -31854,7 +31904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t35F2E89DF840C06C68595E9289A07A
 		int32_t L_4 = ___allocator2;
 		NullCheck(L_0);
 		NativeArray_1_t35F2E89DF840C06C68595E9289A07A26CBB07FCB  L_5;
-		L_5 = VirtFuncInvoker4< NativeArray_1_t35F2E89DF840C06C68595E9289A07A26CBB07FCB , XRRaycastHit_t94A3D13B245A9D0A7A7F2D0919DCAAC7C8DF8DDB , Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 , int32_t, int32_t >::Invoke(11 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit> UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::Raycast(UnityEngine.XR.ARSubsystems.XRRaycastHit,UnityEngine.Vector2,UnityEngine.XR.ARSubsystems.TrackableType,Unity.Collections.Allocator) */, L_0, L_1, L_2, L_3, L_4);
+		L_5 = VirtFuncInvoker4< NativeArray_1_t35F2E89DF840C06C68595E9289A07A26CBB07FCB , XRRaycastHit_t94A3D13B245A9D0A7A7F2D0919DCAAC7C8DF8DDB , Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 , int32_t, int32_t >::Invoke(13 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit> UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::Raycast(UnityEngine.XR.ARSubsystems.XRRaycastHit,UnityEngine.Vector2,UnityEngine.XR.ARSubsystems.TrackableType,Unity.Collections.Allocator) */, L_0, L_1, L_2, L_3, L_4);
 		return L_5;
 	}
 }
@@ -33210,7 +33260,7 @@ IL_0013:
 		int32_t L_4 = ___allocator0;
 		NullCheck(L_2);
 		TrackableChanges_1_t4F3E80A7CED9B2D7CD7F28650988E9EE62523358  L_5;
-		L_5 = VirtFuncInvoker2< TrackableChanges_1_t4F3E80A7CED9B2D7CD7F28650988E9EE62523358 , XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 , int32_t >::Invoke(6 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRReferencePoint> UnityEngine.XR.ARSubsystems.XRReferencePointSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRReferencePoint,Unity.Collections.Allocator) */, L_2, L_3, L_4);
+		L_5 = VirtFuncInvoker2< TrackableChanges_1_t4F3E80A7CED9B2D7CD7F28650988E9EE62523358 , XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 , int32_t >::Invoke(8 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<UnityEngine.XR.ARSubsystems.XRReferencePoint> UnityEngine.XR.ARSubsystems.XRReferencePointSubsystem/Provider::GetChanges(UnityEngine.XR.ARSubsystems.XRReferencePoint,Unity.Collections.Allocator) */, L_2, L_3, L_4);
 		// return changes;
 		return L_5;
 	}
@@ -33232,7 +33282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRReferencePointSubsystem_TryAddReferenc
 		XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 * L_2 = ___referencePoint1;
 		NullCheck(L_0);
 		bool L_3;
-		L_3 = VirtFuncInvoker2< bool, Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A , XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 * >::Invoke(7 /* System.Boolean UnityEngine.XR.ARSubsystems.XRReferencePointSubsystem/Provider::TryAddReferencePoint(UnityEngine.Pose,UnityEngine.XR.ARSubsystems.XRReferencePoint&) */, L_0, L_1, (XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 *)L_2);
+		L_3 = VirtFuncInvoker2< bool, Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A , XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 * >::Invoke(9 /* System.Boolean UnityEngine.XR.ARSubsystems.XRReferencePointSubsystem/Provider::TryAddReferencePoint(UnityEngine.Pose,UnityEngine.XR.ARSubsystems.XRReferencePoint&) */, L_0, L_1, (XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 *)L_2);
 		return L_3;
 	}
 }
@@ -33254,7 +33304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRReferencePointSubsystem_TryAttachRefer
 		XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 * L_3 = ___referencePoint2;
 		NullCheck(L_0);
 		bool L_4;
-		L_4 = VirtFuncInvoker3< bool, TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A , XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 * >::Invoke(8 /* System.Boolean UnityEngine.XR.ARSubsystems.XRReferencePointSubsystem/Provider::TryAttachReferencePoint(UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.Pose,UnityEngine.XR.ARSubsystems.XRReferencePoint&) */, L_0, L_1, L_2, (XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 *)L_3);
+		L_4 = VirtFuncInvoker3< bool, TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B , Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A , XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 * >::Invoke(10 /* System.Boolean UnityEngine.XR.ARSubsystems.XRReferencePointSubsystem/Provider::TryAttachReferencePoint(UnityEngine.XR.ARSubsystems.TrackableId,UnityEngine.Pose,UnityEngine.XR.ARSubsystems.XRReferencePoint&) */, L_0, L_1, L_2, (XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 *)L_3);
 		return L_4;
 	}
 }
@@ -33274,7 +33324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRReferencePointSubsystem_TryRemoveRefer
 		TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  L_1 = ___referencePointId0;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtFuncInvoker1< bool, TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  >::Invoke(9 /* System.Boolean UnityEngine.XR.ARSubsystems.XRReferencePointSubsystem/Provider::TryRemoveReferencePoint(UnityEngine.XR.ARSubsystems.TrackableId) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< bool, TrackableId_t17A59B04292038BB1B77BEACD41221D2700BE90B  >::Invoke(11 /* System.Boolean UnityEngine.XR.ARSubsystems.XRReferencePointSubsystem/Provider::TryRemoveReferencePoint(UnityEngine.XR.ARSubsystems.TrackableId) */, L_0, L_1);
 		return L_2;
 	}
 }
@@ -33323,7 +33373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Promise_1_tB8B428F557CD6742430DB416C0B99C79CA
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
 		Promise_1_tB8B428F557CD6742430DB416C0B99C79CA1AA167 * L_1;
-		L_1 = VirtFuncInvoker0< Promise_1_tB8B428F557CD6742430DB416C0B99C79CA1AA167 * >::Invoke(16 /* UnityEngine.XR.ARSubsystems.Promise`1<UnityEngine.XR.ARSubsystems.SessionAvailability> UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::GetAvailabilityAsync() */, L_0);
+		L_1 = VirtFuncInvoker0< Promise_1_tB8B428F557CD6742430DB416C0B99C79CA1AA167 * >::Invoke(19 /* UnityEngine.XR.ARSubsystems.Promise`1<UnityEngine.XR.ARSubsystems.SessionAvailability> UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::GetAvailabilityAsync() */, L_0);
 		return L_1;
 	}
 }
@@ -33363,7 +33413,7 @@ IL_0018:
 		L_3 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_3);
 		Promise_1_tB8B3F3631C923F82F653F3D73D6B3082CF7CDD88 * L_4;
-		L_4 = VirtFuncInvoker0< Promise_1_tB8B3F3631C923F82F653F3D73D6B3082CF7CDD88 * >::Invoke(17 /* UnityEngine.XR.ARSubsystems.Promise`1<UnityEngine.XR.ARSubsystems.SessionInstallationStatus> UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::InstallAsync() */, L_3);
+		L_4 = VirtFuncInvoker0< Promise_1_tB8B3F3631C923F82F653F3D73D6B3082CF7CDD88 * >::Invoke(20 /* UnityEngine.XR.ARSubsystems.Promise`1<UnityEngine.XR.ARSubsystems.SessionInstallationStatus> UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::InstallAsync() */, L_3);
 		return L_4;
 	}
 }
@@ -33405,7 +33455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSessionSubsystem_Reset_mFA88E84DCF6A27
 		Provider_t4C3675997BB8AF3A6A32C3EC3C93C10E4D3E8D1A * L_0;
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
-		VirtActionInvoker0::Invoke(13 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::Reset() */, L_0);
+		VirtActionInvoker0::Invoke(15 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::Reset() */, L_0);
 		return;
 	}
 }
@@ -33562,7 +33612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSessionSubsystem_Update_mB98D19BDD6613
 		Configuration_t29C11C7E576D64F717543048BDA1EBCEF0CF60C0  L_7;
 		L_7 = Nullable_1_get_Value_mDA19DA2AA45AFC963C5C15484BCF51E2C933A3F7((Nullable_1_t0FF36C2ABCA6430FFCD4ED32922F18F36382E494 *)(&V_0), /*hidden argument*/Nullable_1_get_Value_mDA19DA2AA45AFC963C5C15484BCF51E2C933A3F7_RuntimeMethod_var);
 		NullCheck(L_4);
-		VirtActionInvoker2< XRSessionUpdateParams_t106E075C3B348969D6F3B634195F295CE47DB77F , Configuration_t29C11C7E576D64F717543048BDA1EBCEF0CF60C0  >::Invoke(7 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::Update(UnityEngine.XR.ARSubsystems.XRSessionUpdateParams,UnityEngine.XR.ARSubsystems.Configuration) */, L_4, L_5, L_7);
+		VirtActionInvoker2< XRSessionUpdateParams_t106E075C3B348969D6F3B634195F295CE47DB77F , Configuration_t29C11C7E576D64F717543048BDA1EBCEF0CF60C0  >::Invoke(9 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::Update(UnityEngine.XR.ARSubsystems.XRSessionUpdateParams,UnityEngine.XR.ARSubsystems.Configuration) */, L_4, L_5, L_7);
 		// }
 		return;
 	}
@@ -33574,7 +33624,7 @@ IL_003d:
 		L_8 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		XRSessionUpdateParams_t106E075C3B348969D6F3B634195F295CE47DB77F  L_9 = ___updateParams0;
 		NullCheck(L_8);
-		VirtActionInvoker1< XRSessionUpdateParams_t106E075C3B348969D6F3B634195F295CE47DB77F  >::Invoke(6 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::Update(UnityEngine.XR.ARSubsystems.XRSessionUpdateParams) */, L_8, L_9);
+		VirtActionInvoker1< XRSessionUpdateParams_t106E075C3B348969D6F3B634195F295CE47DB77F  >::Invoke(8 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::Update(UnityEngine.XR.ARSubsystems.XRSessionUpdateParams) */, L_8, L_9);
 		// }
 		return;
 	}
@@ -33613,7 +33663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t XRSessionSubsystem_get_requestedFeat
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
 		uint64_t L_1;
-		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(8 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_requestedFeatures() */, L_0);
+		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(10 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_requestedFeatures() */, L_0);
 		return L_1;
 	}
 }
@@ -33633,7 +33683,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC9A9DFD8C5E8BBF71F83CBC0CCF7C4
 		int32_t L_1 = ___allocator0;
 		NullCheck(L_0);
 		NativeArray_1_tC9A9DFD8C5E8BBF71F83CBC0CCF7C4BC38E3A4CA  L_2;
-		L_2 = VirtFuncInvoker1< NativeArray_1_tC9A9DFD8C5E8BBF71F83CBC0CCF7C4BC38E3A4CA , int32_t >::Invoke(12 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor> UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::GetConfigurationDescriptors(Unity.Collections.Allocator) */, L_0, L_1);
+		L_2 = VirtFuncInvoker1< NativeArray_1_tC9A9DFD8C5E8BBF71F83CBC0CCF7C4BC38E3A4CA , int32_t >::Invoke(14 /* Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.ConfigurationDescriptor> UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::GetConfigurationDescriptors(Unity.Collections.Allocator) */, L_0, L_1);
 		return L_2;
 	}
 }
@@ -33651,7 +33701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSessionSubsystem_OnApplicationPause_m8
 		Provider_t4C3675997BB8AF3A6A32C3EC3C93C10E4D3E8D1A * L_0;
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
-		VirtActionInvoker0::Invoke(14 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::OnApplicationPause() */, L_0);
+		VirtActionInvoker0::Invoke(16 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::OnApplicationPause() */, L_0);
 		return;
 	}
 }
@@ -33669,7 +33719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSessionSubsystem_OnApplicationResume_m
 		Provider_t4C3675997BB8AF3A6A32C3EC3C93C10E4D3E8D1A * L_0;
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
-		VirtActionInvoker0::Invoke(15 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::OnApplicationResume() */, L_0);
+		VirtActionInvoker0::Invoke(17 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::OnApplicationResume() */, L_0);
 		return;
 	}
 }
@@ -33688,7 +33738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSessionSubsystem_get_trackingState_
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(18 /* UnityEngine.XR.ARSubsystems.TrackingState UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_trackingState() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(21 /* UnityEngine.XR.ARSubsystems.TrackingState UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_trackingState() */, L_0);
 		return L_1;
 	}
 }
@@ -33707,7 +33757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t XRSessionSubsystem_get_requestedTrac
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
 		uint64_t L_1;
-		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_requestedTrackingMode() */, L_0);
+		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(11 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_requestedTrackingMode() */, L_0);
 		uint64_t L_2;
 		L_2 = FeatureExtensions_TrackingModes_m42E19D4C37D0B9A70CACE5810FBE94B8A517D127(L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -33730,7 +33780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSessionSubsystem_set_requestedTracking
 		uint64_t L_2;
 		L_2 = FeatureExtensions_TrackingModes_m42E19D4C37D0B9A70CACE5810FBE94B8A517D127(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		VirtActionInvoker1< uint64_t >::Invoke(10 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::set_requestedTrackingMode(UnityEngine.XR.ARSubsystems.Feature) */, L_0, L_2);
+		VirtActionInvoker1< uint64_t >::Invoke(12 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::set_requestedTrackingMode(UnityEngine.XR.ARSubsystems.Feature) */, L_0, L_2);
 		return;
 	}
 }
@@ -33749,7 +33799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t XRSessionSubsystem_get_currentTracki
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
 		uint64_t L_1;
-		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(11 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_currentTrackingMode() */, L_0);
+		L_1 = VirtFuncInvoker0< uint64_t >::Invoke(13 /* UnityEngine.XR.ARSubsystems.Feature UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_currentTrackingMode() */, L_0);
 		uint64_t L_2;
 		L_2 = FeatureExtensions_TrackingModes_m42E19D4C37D0B9A70CACE5810FBE94B8A517D127(L_1, /*hidden argument*/NULL);
 		return L_2;
@@ -33770,7 +33820,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSessionSubsystem_get_notTrackingRea
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(19 /* UnityEngine.XR.ARSubsystems.NotTrackingReason UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_notTrackingReason() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(22 /* UnityEngine.XR.ARSubsystems.NotTrackingReason UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_notTrackingReason() */, L_0);
 		return L_1;
 	}
 }
@@ -33789,7 +33839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSessionSubsystem_get_matchFrameRateEna
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(20 /* System.Boolean UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_matchFrameRateEnabled() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(24 /* System.Boolean UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_matchFrameRateEnabled() */, L_0);
 		return L_1;
 	}
 }
@@ -33808,7 +33858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSessionSubsystem_get_matchFrameRateReq
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtFuncInvoker0< bool >::Invoke(21 /* System.Boolean UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_matchFrameRateRequested() */, L_0);
+		L_1 = VirtFuncInvoker0< bool >::Invoke(25 /* System.Boolean UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_matchFrameRateRequested() */, L_0);
 		return L_1;
 	}
 }
@@ -33827,7 +33877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSessionSubsystem_set_matchFrameRateReq
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		bool L_1 = ___value0;
 		NullCheck(L_0);
-		VirtActionInvoker1< bool >::Invoke(22 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::set_matchFrameRateRequested(System.Boolean) */, L_0, L_1);
+		VirtActionInvoker1< bool >::Invoke(26 /* System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::set_matchFrameRateRequested(System.Boolean) */, L_0, L_1);
 		return;
 	}
 }
@@ -33846,7 +33896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSessionSubsystem_get_frameRate_mE59
 		L_0 = SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_inline(__this, /*hidden argument*/SubsystemWithProvider_3_get_provider_m6804A0C76FB5F7C9925F2153F33A7E44BBD95F0E_RuntimeMethod_var);
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_frameRate() */, L_0);
+		L_1 = VirtFuncInvoker0< int32_t >::Invoke(27 /* System.Int32 UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_frameRate() */, L_0);
 		return L_1;
 	}
 }
@@ -35957,6 +36007,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_Stop_mBC0382A741C3D457CE9306E73
 		return;
 	}
 }
+// System.Void UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::Destroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_Destroy_m811EEFB83BCE7A7F55B8126A0CA06F4A0081FF23 (Provider_t55916B0D2766C320DCA36A0C870BA2FD80F8B6D1 * __this, const RuntimeMethod* method)
+{
+	{
+		// public override void Destroy() { }
+		return;
+	}
+}
 // System.Boolean UnityEngine.XR.ARSubsystems.XRCameraSubsystem/Provider::TryGetFrame(UnityEngine.XR.ARSubsystems.XRCameraParams,UnityEngine.XR.ARSubsystems.XRCameraFrame&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Provider_TryGetFrame_m9BDEADBA9AB8CA56E51906D409DADAE31634631E (Provider_t55916B0D2766C320DCA36A0C870BA2FD80F8B6D1 * __this, XRCameraParams_t9FCECBDAEFCC1084042B75393990959B28B64B18  ___cameraParams0, XRCameraFrame_t5FD7B7FC22B478AC6B00AD01A0AD6F2295EA1BA8 * ___cameraFrame1, const RuntimeMethod* method)
 {
@@ -36218,6 +36276,76 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider__ctor_mA61CB0610059584FC8190F2C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Boolean UnityEngine.XR.ARSubsystems.XRCpuImage/Api::TryGetPlane(System.Int32,System.Int32,UnityEngine.XR.ARSubsystems.XRCpuImage/Plane/Cinfo&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_TryGetPlane_m9EDAE9347615522A0C95F387DF4D274D655090A8 (Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * __this, int32_t ___nativeHandle0, int32_t ___planeIndex1, Cinfo_t11C577CFE4A1D91F887A6423F6D1350DA45CA5FC * ___planeCinfo2, const RuntimeMethod* method)
+{
+	{
+		// throw new NotSupportedException("camera image conversion is not supported by this implementation");
+		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50462E987F01EE38DE56F70AE720A4C4512F3F59)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Api_TryGetPlane_m9EDAE9347615522A0C95F387DF4D274D655090A8_RuntimeMethod_var)));
+	}
+}
+// System.Boolean UnityEngine.XR.ARSubsystems.XRCpuImage/Api::TryGetConvertedDataSize(System.Int32,UnityEngine.Vector2Int,UnityEngine.TextureFormat,System.Int32&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_TryGetConvertedDataSize_m50DDC92171F520516E21205E3817BEE0D51A9A51 (Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * __this, int32_t ___nativeHandle0, Vector2Int_tF49F5C2443670DE126D9EC8DBE81D8F480EAA6E9  ___dimensions1, int32_t ___format2, int32_t* ___size3, const RuntimeMethod* method)
+{
+	{
+		// throw new NotSupportedException("Camera image conversion is not supported by this implementation");
+		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE3B3C6EBFEA166D20BF43554ADFEFAB3308E3F3E)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Api_TryGetConvertedDataSize_m50DDC92171F520516E21205E3817BEE0D51A9A51_RuntimeMethod_var)));
+	}
+}
+// System.Boolean UnityEngine.XR.ARSubsystems.XRCpuImage/Api::TryConvert(System.Int32,UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams,System.IntPtr,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_TryConvert_m2FB4CAC6639BE6EDDD65D74A3C296C9A72C1E6FD (Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * __this, int32_t ___nativeHandle0, ConversionParams_t3DDB9752BA823641A302D0783C14048D9B09B74A  ___conversionParams1, intptr_t ___destinationBuffer2, int32_t ___bufferLength3, const RuntimeMethod* method)
+{
+	{
+		// throw new NotSupportedException("camera image conversion is not supported by this implementation");
+		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50462E987F01EE38DE56F70AE720A4C4512F3F59)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Api_TryConvert_m2FB4CAC6639BE6EDDD65D74A3C296C9A72C1E6FD_RuntimeMethod_var)));
+	}
+}
+// System.Int32 UnityEngine.XR.ARSubsystems.XRCpuImage/Api::ConvertAsync(System.Int32,UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_ConvertAsync_m7D88B9B493A448A03FBED33FE2C675805A2417F0 (Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * __this, int32_t ___nativeHandle0, ConversionParams_t3DDB9752BA823641A302D0783C14048D9B09B74A  ___conversionParams1, const RuntimeMethod* method)
+{
+	{
+		// throw new NotSupportedException("camera image conversion is not supported by this implementation");
+		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50462E987F01EE38DE56F70AE720A4C4512F3F59)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Api_ConvertAsync_m7D88B9B493A448A03FBED33FE2C675805A2417F0_RuntimeMethod_var)));
+	}
+}
+// System.Boolean UnityEngine.XR.ARSubsystems.XRCpuImage/Api::NativeHandleValid(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_NativeHandleValid_m25628942A0D2320EAB96887219972ED8257FC858 (Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * __this, int32_t ___nativeHandle0, const RuntimeMethod* method)
+{
+	{
+		// throw new NotSupportedException("camera image conversion is not supported by this implementation");
+		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50462E987F01EE38DE56F70AE720A4C4512F3F59)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Api_NativeHandleValid_m25628942A0D2320EAB96887219972ED8257FC858_RuntimeMethod_var)));
+	}
+}
+// System.Boolean UnityEngine.XR.ARSubsystems.XRCpuImage/Api::TryGetAsyncRequestData(System.Int32,System.IntPtr&,System.Int32&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_TryGetAsyncRequestData_mCEB60B8F55366677F05AAF1651F46C4B28AFAEA3 (Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * __this, int32_t ___requestId0, intptr_t* ___dataPtr1, int32_t* ___dataLength2, const RuntimeMethod* method)
+{
+	{
+		// throw new NotSupportedException("camera image conversion is not supported by this implementation");
+		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50462E987F01EE38DE56F70AE720A4C4512F3F59)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Api_TryGetAsyncRequestData_mCEB60B8F55366677F05AAF1651F46C4B28AFAEA3_RuntimeMethod_var)));
+	}
+}
+// System.Void UnityEngine.XR.ARSubsystems.XRCpuImage/Api::ConvertAsync(System.Int32,UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams,UnityEngine.XR.ARSubsystems.XRCpuImage/Api/OnImageRequestCompleteDelegate,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Api_ConvertAsync_mE9BFD28B9BC1C3A063FC0B84B014B3538A155E99 (Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * __this, int32_t ___nativeHandle0, ConversionParams_t3DDB9752BA823641A302D0783C14048D9B09B74A  ___conversionParams1, OnImageRequestCompleteDelegate_t118FB01E93241BFD5BCA5BEF2A6FD082ACAAB4DD * ___callback2, intptr_t ___context3, const RuntimeMethod* method)
+{
+	{
+		// throw new NotSupportedException("camera image conversion is not supported by this implementation");
+		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50462E987F01EE38DE56F70AE720A4C4512F3F59)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Api_ConvertAsync_mE9BFD28B9BC1C3A063FC0B84B014B3538A155E99_RuntimeMethod_var)));
+	}
+}
 // System.Void UnityEngine.XR.ARSubsystems.XRCpuImage/Api::DisposeImage(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Api_DisposeImage_m6AEAAF9EF11D19294B441CF6DBB8FEDD58933989 (Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * __this, int32_t ___nativeHandle0, const RuntimeMethod* method)
 {
@@ -36226,6 +36354,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Api_DisposeImage_m6AEAAF9EF11D19294B441C
 		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50462E987F01EE38DE56F70AE720A4C4512F3F59)), /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Api_DisposeImage_m6AEAAF9EF11D19294B441CF6DBB8FEDD58933989_RuntimeMethod_var)));
+	}
+}
+// System.Void UnityEngine.XR.ARSubsystems.XRCpuImage/Api::DisposeAsyncRequest(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Api_DisposeAsyncRequest_m06C972C865763DF2DE877124295F4A48B0574ABE (Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * __this, int32_t ___requestId0, const RuntimeMethod* method)
+{
+	{
+		// throw new NotSupportedException("camera image conversion is not supported by this implementation");
+		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50462E987F01EE38DE56F70AE720A4C4512F3F59)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Api_DisposeAsyncRequest_m06C972C865763DF2DE877124295F4A48B0574ABE_RuntimeMethod_var)));
+	}
+}
+// UnityEngine.XR.ARSubsystems.XRCpuImage/AsyncConversionStatus UnityEngine.XR.ARSubsystems.XRCpuImage/Api::GetAsyncRequestStatus(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_GetAsyncRequestStatus_m920A8C2BA437BF3581A737DE8AF350094577300B (Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * __this, int32_t ___requestId0, const RuntimeMethod* method)
+{
+	{
+		// throw new NotSupportedException("camera image conversion is not supported by this implementation");
+		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m40BC57BDA6E0E119B73700CC809A14B57DC65A90(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral50462E987F01EE38DE56F70AE720A4C4512F3F59)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Api_GetAsyncRequestStatus_m920A8C2BA437BF3581A737DE8AF350094577300B_RuntimeMethod_var)));
+	}
+}
+// System.Boolean UnityEngine.XR.ARSubsystems.XRCpuImage/Api::FormatSupported(UnityEngine.XR.ARSubsystems.XRCpuImage,UnityEngine.TextureFormat)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_FormatSupported_mD53B1C7B2A9D9D49ADDCE94794198C5A0FB64828 (Api_t7C92F00C6416A2C636A44AAC833C3773C567DC3E * __this, XRCpuImage_tA48C0687D95D3D63D1101E4E08EFCF0ABB2431CE  ___image0, int32_t ___format1, const RuntimeMethod* method)
+{
+	{
+		// public virtual bool FormatSupported(XRCpuImage image, TextureFormat format) => false;
+		return (bool)0;
 	}
 }
 // System.Void UnityEngine.XR.ARSubsystems.XRCpuImage/Api::.ctor()
@@ -37179,6 +37335,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_Stop_mE83290B18BBF745A739EFBB89
 {
 	{
 		// public override void Stop() { }
+		return;
+	}
+}
+// System.Void UnityEngine.XR.ARSubsystems.XRDepthSubsystem/Provider::Destroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_Destroy_m4594AD5BE5A869ECEDF56161272A18E5182B4E58 (Provider_t8E88C17A70269CD3E96909AFCCA952AAA7DEC0B6 * __this, const RuntimeMethod* method)
+{
+	{
+		// public override void Destroy() { }
 		return;
 	}
 }
@@ -39560,6 +39724,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_Stop_m1C036AD27F8B1E3EA9AFB2288
 		return;
 	}
 }
+// System.Void UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::Destroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_Destroy_m0A7220BD30B6E87681E5D63B89FA177E24A93FD5 (Provider_tF185BE0541D2066CD242583CEFE7709DD22DD227 * __this, const RuntimeMethod* method)
+{
+	{
+		// public override void Destroy() { }
+		return;
+	}
+}
 // System.Boolean UnityEngine.XR.ARSubsystems.XRRaycastSubsystem/Provider::TryAddRaycast(UnityEngine.Vector2,System.Single,UnityEngine.XR.ARSubsystems.XRRaycast&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Provider_TryAddRaycast_m4EEED029510C7B0273678827530C882EDA5B314F (Provider_tF185BE0541D2066CD242583CEFE7709DD22DD227 * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___screenPoint0, float ___estimatedDistance1, XRRaycast_tA18F9107EFF1D692E70EF15233BB6134A5F66C55 * ___raycast2, const RuntimeMethod* method)
 {
@@ -40168,6 +40340,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_Stop_mA1D84CAD4F173F45729BCCF7F
 		return;
 	}
 }
+// System.Void UnityEngine.XR.ARSubsystems.XRReferencePointSubsystem/Provider::Destroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_Destroy_m9C33B460B119788705D6CF145510A3CA3320CFCA (Provider_t7974F3BD624EC305575E361EE0BCAAA3DC5B253C * __this, const RuntimeMethod* method)
+{
+	{
+		// public override void Destroy() { }
+		return;
+	}
+}
 // System.Boolean UnityEngine.XR.ARSubsystems.XRReferencePointSubsystem/Provider::TryAddReferencePoint(UnityEngine.Pose,UnityEngine.XR.ARSubsystems.XRReferencePoint&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Provider_TryAddReferencePoint_mEECEE05AE6CE36CC4DFC6B34EB2328203ABF74D2 (Provider_t7974F3BD624EC305575E361EE0BCAAA3DC5B253C * __this, Pose_t9F30358E65733E60A1DC8682FDB7104F40C9434A  ___pose0, XRReferencePoint_tF3ACF949B4AE1EC67F527F5D30DD8B912A814634 * ___referencePoint1, const RuntimeMethod* method)
 {
@@ -40282,6 +40462,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tC9A9DFD8C5E8BBF71F83CBC0CCF7C4
 		return L_0;
 	}
 }
+// System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::Destroy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_Destroy_m91FDA48A481008AB6F408823ACFA4E51B6710F17 (Provider_t4C3675997BB8AF3A6A32C3EC3C93C10E4D3E8D1A * __this, const RuntimeMethod* method)
+{
+	{
+		// public override void Destroy() { }
+		return;
+	}
+}
 // System.Void UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::Reset()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_Reset_mC07FE81BB38D7C6F1123D477E078BCA98DD0007E (Provider_t4C3675997BB8AF3A6A32C3EC3C93C10E4D3E8D1A * __this, const RuntimeMethod* method)
 {
@@ -40304,6 +40492,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Provider_OnApplicationResume_m5986673397
 	{
 		// public virtual void OnApplicationResume() { }
 		return;
+	}
+}
+// System.IntPtr UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_nativePtr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Provider_get_nativePtr_m36BB948CA26F060AE9F9B5E77191B48605C5770B (Provider_t4C3675997BB8AF3A6A32C3EC3C93C10E4D3E8D1A * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public virtual IntPtr nativePtr => IntPtr.Zero;
+		return (intptr_t)(0);
 	}
 }
 // UnityEngine.XR.ARSubsystems.Promise`1<UnityEngine.XR.ARSubsystems.SessionAvailability> UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::GetAvailabilityAsync()
@@ -40352,6 +40554,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Provider_get_notTrackingReason_mD6C96
 	{
 		// public virtual NotTrackingReason notTrackingReason => NotTrackingReason.Unsupported;
 		return (int32_t)(6);
+	}
+}
+// System.Guid UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_sessionId()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Guid_t  Provider_get_sessionId_m28A8F75715D7469B0F555CAC2E9B7D71B68CAFCE (Provider_t4C3675997BB8AF3A6A32C3EC3C93C10E4D3E8D1A * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Guid_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public virtual Guid sessionId => Guid.Empty;
+		IL2CPP_RUNTIME_CLASS_INIT(Guid_t_il2cpp_TypeInfo_var);
+		Guid_t  L_0 = ((Guid_t_StaticFields*)il2cpp_codegen_static_fields_for(Guid_t_il2cpp_TypeInfo_var))->get_Empty_0();
+		return L_0;
 	}
 }
 // System.Boolean UnityEngine.XR.ARSubsystems.XRSessionSubsystem/Provider::get_matchFrameRateEnabled()

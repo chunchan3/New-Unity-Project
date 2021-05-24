@@ -2531,15 +2531,15 @@ struct ARWorldMap_t90151C78B15487234BE2E76D169DA191819704A2
 {
 public:
 	// System.Int32 UnityEngine.XR.ARKit.ARWorldMap::<nativeHandle>k__BackingField
-	int32_t ___U3CnativeHandleU3Ek__BackingField_0;
+	int32_t ___U3CnativeHandleU3Ek__BackingField_1;
 
 public:
-	inline static int32_t get_offset_of_U3CnativeHandleU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(ARWorldMap_t90151C78B15487234BE2E76D169DA191819704A2, ___U3CnativeHandleU3Ek__BackingField_0)); }
-	inline int32_t get_U3CnativeHandleU3Ek__BackingField_0() const { return ___U3CnativeHandleU3Ek__BackingField_0; }
-	inline int32_t* get_address_of_U3CnativeHandleU3Ek__BackingField_0() { return &___U3CnativeHandleU3Ek__BackingField_0; }
-	inline void set_U3CnativeHandleU3Ek__BackingField_0(int32_t value)
+	inline static int32_t get_offset_of_U3CnativeHandleU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(ARWorldMap_t90151C78B15487234BE2E76D169DA191819704A2, ___U3CnativeHandleU3Ek__BackingField_1)); }
+	inline int32_t get_U3CnativeHandleU3Ek__BackingField_1() const { return ___U3CnativeHandleU3Ek__BackingField_1; }
+	inline int32_t* get_address_of_U3CnativeHandleU3Ek__BackingField_1() { return &___U3CnativeHandleU3Ek__BackingField_1; }
+	inline void set_U3CnativeHandleU3Ek__BackingField_1(int32_t value)
 	{
-		___U3CnativeHandleU3Ek__BackingField_0 = value;
+		___U3CnativeHandleU3Ek__BackingField_1 = value;
 	}
 };
 
@@ -13626,7 +13626,7 @@ IL_002c:
 			L_3 = ((  RuntimeObject * (*) (SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
 			NullCheck((TrackingSubsystem_4_t03AE7A9F3FCFC6AD533F1AC3F403168B8140649F *)L_3);
 			TrackableChanges_1_t8B0834EED4AC44A71FC9071BDA349BA9D8FE0717  L_4;
-			L_4 = VirtFuncInvoker1< TrackableChanges_1_t8B0834EED4AC44A71FC9071BDA349BA9D8FE0717 , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.BoundedPlane,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t03AE7A9F3FCFC6AD533F1AC3F403168B8140649F *)L_3, (int32_t)2);
+			L_4 = VirtFuncInvoker1< TrackableChanges_1_t8B0834EED4AC44A71FC9071BDA349BA9D8FE0717 , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.BoundedPlane,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t03AE7A9F3FCFC6AD533F1AC3F403168B8140649F *)L_3, (int32_t)2);
 			V_1 = (TrackableChanges_1_t8B0834EED4AC44A71FC9071BDA349BA9D8FE0717 )L_4;
 		}
 
@@ -15318,7 +15318,7 @@ IL_002c:
 			L_3 = ((  RuntimeObject * (*) (SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
 			NullCheck((TrackingSubsystem_4_t346381F1A8322029735E6CB60BE656844AC911E8 *)L_3);
 			TrackableChanges_1_tF38314CFF715F232D6DA3415FD2F68CE504CFF9B  L_4;
-			L_4 = VirtFuncInvoker1< TrackableChanges_1_tF38314CFF715F232D6DA3415FD2F68CE504CFF9B , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRAnchor,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t346381F1A8322029735E6CB60BE656844AC911E8 *)L_3, (int32_t)2);
+			L_4 = VirtFuncInvoker1< TrackableChanges_1_tF38314CFF715F232D6DA3415FD2F68CE504CFF9B , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRAnchor,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t346381F1A8322029735E6CB60BE656844AC911E8 *)L_3, (int32_t)2);
 			V_1 = (TrackableChanges_1_tF38314CFF715F232D6DA3415FD2F68CE504CFF9B )L_4;
 		}
 
@@ -17010,7 +17010,7 @@ IL_002c:
 			L_3 = ((  RuntimeObject * (*) (SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
 			NullCheck((TrackingSubsystem_4_tBD40FD22068207BB90449FC608025235E400C47A *)L_3);
 			TrackableChanges_1_tBC1B6352E3D11F9F7BC4E567480BDF8AE39A547F  L_4;
-			L_4 = VirtFuncInvoker1< TrackableChanges_1_tBC1B6352E3D11F9F7BC4E567480BDF8AE39A547F , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XREnvironmentProbe,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_tBD40FD22068207BB90449FC608025235E400C47A *)L_3, (int32_t)2);
+			L_4 = VirtFuncInvoker1< TrackableChanges_1_tBC1B6352E3D11F9F7BC4E567480BDF8AE39A547F , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XREnvironmentProbe,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_tBD40FD22068207BB90449FC608025235E400C47A *)L_3, (int32_t)2);
 			V_1 = (TrackableChanges_1_tBC1B6352E3D11F9F7BC4E567480BDF8AE39A547F )L_4;
 		}
 
@@ -18702,7 +18702,7 @@ IL_002c:
 			L_3 = ((  RuntimeObject * (*) (SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
 			NullCheck((TrackingSubsystem_4_tB043EC909C55FE5BC78AD95436858F4956E3DE4C *)L_3);
 			TrackableChanges_1_t4155663F6D60090D5E988A2EB1E4A782792ADA63  L_4;
-			L_4 = VirtFuncInvoker1< TrackableChanges_1_t4155663F6D60090D5E988A2EB1E4A782792ADA63 , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRFace,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_tB043EC909C55FE5BC78AD95436858F4956E3DE4C *)L_3, (int32_t)2);
+			L_4 = VirtFuncInvoker1< TrackableChanges_1_t4155663F6D60090D5E988A2EB1E4A782792ADA63 , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRFace,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_tB043EC909C55FE5BC78AD95436858F4956E3DE4C *)L_3, (int32_t)2);
 			V_1 = (TrackableChanges_1_t4155663F6D60090D5E988A2EB1E4A782792ADA63 )L_4;
 		}
 
@@ -20394,7 +20394,7 @@ IL_002c:
 			L_3 = ((  RuntimeObject * (*) (SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
 			NullCheck((TrackingSubsystem_4_t758226B1C7A7735796B7029A5913BC43628FCCF3 *)L_3);
 			TrackableChanges_1_t4BEBDDB9C8CBFF65EC7028CE5BA562A5728C8B82  L_4;
-			L_4 = VirtFuncInvoker1< TrackableChanges_1_t4BEBDDB9C8CBFF65EC7028CE5BA562A5728C8B82 , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRHumanBody,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t758226B1C7A7735796B7029A5913BC43628FCCF3 *)L_3, (int32_t)2);
+			L_4 = VirtFuncInvoker1< TrackableChanges_1_t4BEBDDB9C8CBFF65EC7028CE5BA562A5728C8B82 , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRHumanBody,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t758226B1C7A7735796B7029A5913BC43628FCCF3 *)L_3, (int32_t)2);
 			V_1 = (TrackableChanges_1_t4BEBDDB9C8CBFF65EC7028CE5BA562A5728C8B82 )L_4;
 		}
 
@@ -22086,7 +22086,7 @@ IL_002c:
 			L_3 = ((  RuntimeObject * (*) (SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
 			NullCheck((TrackingSubsystem_4_t2CAAD77E4532041B0120AE543DB331C1CECFA765 *)L_3);
 			TrackableChanges_1_tCBDEADFC15FC0570F012431A5227C2E6B92BAC3F  L_4;
-			L_4 = VirtFuncInvoker1< TrackableChanges_1_tCBDEADFC15FC0570F012431A5227C2E6B92BAC3F , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRParticipant,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t2CAAD77E4532041B0120AE543DB331C1CECFA765 *)L_3, (int32_t)2);
+			L_4 = VirtFuncInvoker1< TrackableChanges_1_tCBDEADFC15FC0570F012431A5227C2E6B92BAC3F , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRParticipant,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t2CAAD77E4532041B0120AE543DB331C1CECFA765 *)L_3, (int32_t)2);
 			V_1 = (TrackableChanges_1_tCBDEADFC15FC0570F012431A5227C2E6B92BAC3F )L_4;
 		}
 
@@ -23778,7 +23778,7 @@ IL_002c:
 			L_3 = ((  RuntimeObject * (*) (SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
 			NullCheck((TrackingSubsystem_4_t1953500C8BD92CD8DCFED1CC3B58B24A60C24E43 *)L_3);
 			TrackableChanges_1_t77AFD32F12A88AC162E5B41E66265CAF9D8E6435  L_4;
-			L_4 = VirtFuncInvoker1< TrackableChanges_1_t77AFD32F12A88AC162E5B41E66265CAF9D8E6435 , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRPointCloud,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t1953500C8BD92CD8DCFED1CC3B58B24A60C24E43 *)L_3, (int32_t)2);
+			L_4 = VirtFuncInvoker1< TrackableChanges_1_t77AFD32F12A88AC162E5B41E66265CAF9D8E6435 , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRPointCloud,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t1953500C8BD92CD8DCFED1CC3B58B24A60C24E43 *)L_3, (int32_t)2);
 			V_1 = (TrackableChanges_1_t77AFD32F12A88AC162E5B41E66265CAF9D8E6435 )L_4;
 		}
 
@@ -25470,7 +25470,7 @@ IL_002c:
 			L_3 = ((  RuntimeObject * (*) (SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
 			NullCheck((TrackingSubsystem_4_tE9F5623D0E551591334872A367EFF28A72775EEA *)L_3);
 			TrackableChanges_1_t092C2BBB89690C350B949DDFFA9F551F85536ED3  L_4;
-			L_4 = VirtFuncInvoker1< TrackableChanges_1_t092C2BBB89690C350B949DDFFA9F551F85536ED3 , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRRaycast,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_tE9F5623D0E551591334872A367EFF28A72775EEA *)L_3, (int32_t)2);
+			L_4 = VirtFuncInvoker1< TrackableChanges_1_t092C2BBB89690C350B949DDFFA9F551F85536ED3 , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRRaycast,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_tE9F5623D0E551591334872A367EFF28A72775EEA *)L_3, (int32_t)2);
 			V_1 = (TrackableChanges_1_t092C2BBB89690C350B949DDFFA9F551F85536ED3 )L_4;
 		}
 
@@ -27162,7 +27162,7 @@ IL_002c:
 			L_3 = ((  RuntimeObject * (*) (SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
 			NullCheck((TrackingSubsystem_4_t3385ADCA6DCAB14BAB5A5E886D096E0B5FA530F5 *)L_3);
 			TrackableChanges_1_t4F3E80A7CED9B2D7CD7F28650988E9EE62523358  L_4;
-			L_4 = VirtFuncInvoker1< TrackableChanges_1_t4F3E80A7CED9B2D7CD7F28650988E9EE62523358 , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRReferencePoint,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t3385ADCA6DCAB14BAB5A5E886D096E0B5FA530F5 *)L_3, (int32_t)2);
+			L_4 = VirtFuncInvoker1< TrackableChanges_1_t4F3E80A7CED9B2D7CD7F28650988E9EE62523358 , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRReferencePoint,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t3385ADCA6DCAB14BAB5A5E886D096E0B5FA530F5 *)L_3, (int32_t)2);
 			V_1 = (TrackableChanges_1_t4F3E80A7CED9B2D7CD7F28650988E9EE62523358 )L_4;
 		}
 
@@ -28854,7 +28854,7 @@ IL_002c:
 			L_3 = ((  RuntimeObject * (*) (SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
 			NullCheck((TrackingSubsystem_4_t227E1B3CD9B70F544BE2BAC33219E40F224A16BA *)L_3);
 			TrackableChanges_1_tDE6975A36D16B9E01B5B7D815A77EDD62A3EA629  L_4;
-			L_4 = VirtFuncInvoker1< TrackableChanges_1_tDE6975A36D16B9E01B5B7D815A77EDD62A3EA629 , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRTrackedImage,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t227E1B3CD9B70F544BE2BAC33219E40F224A16BA *)L_3, (int32_t)2);
+			L_4 = VirtFuncInvoker1< TrackableChanges_1_tDE6975A36D16B9E01B5B7D815A77EDD62A3EA629 , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRTrackedImage,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t227E1B3CD9B70F544BE2BAC33219E40F224A16BA *)L_3, (int32_t)2);
 			V_1 = (TrackableChanges_1_tDE6975A36D16B9E01B5B7D815A77EDD62A3EA629 )L_4;
 		}
 
@@ -30546,7 +30546,7 @@ IL_002c:
 			L_3 = ((  RuntimeObject * (*) (SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17)->methodPointer)((SubsystemLifecycleManager_3_t2AD5C0CEF1579C328B065CC2710E931A5F71AEF1 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 17));
 			NullCheck((TrackingSubsystem_4_t7F92C20128624C004DAABFC3F72A9994C54898D9 *)L_3);
 			TrackableChanges_1_t388C13B0BF202AE5F24D0BB3AE0D672AA355E1B1  L_4;
-			L_4 = VirtFuncInvoker1< TrackableChanges_1_t388C13B0BF202AE5F24D0BB3AE0D672AA355E1B1 , int32_t >::Invoke(9 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRTrackedObject,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t7F92C20128624C004DAABFC3F72A9994C54898D9 *)L_3, (int32_t)2);
+			L_4 = VirtFuncInvoker1< TrackableChanges_1_t388C13B0BF202AE5F24D0BB3AE0D672AA355E1B1 , int32_t >::Invoke(14 /* UnityEngine.XR.ARSubsystems.TrackableChanges`1<!0> UnityEngine.XR.ARSubsystems.TrackingSubsystem`4<UnityEngine.XR.ARSubsystems.XRTrackedObject,System.Object,System.Object,System.Object>::GetChanges(Unity.Collections.Allocator) */, (TrackingSubsystem_4_t7F92C20128624C004DAABFC3F72A9994C54898D9 *)L_3, (int32_t)2);
 			V_1 = (TrackableChanges_1_t388C13B0BF202AE5F24D0BB3AE0D672AA355E1B1 )L_4;
 		}
 
