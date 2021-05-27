@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DF83D32F-CA4C-AF77-AF20-52E2D4A9DCE2}</ProjectGuid>
+    <ProjectGuid>{1ADA3F92-994F-FE0E-B05B-67AD174C5B8E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,16 +56,48 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/MoveCamera.cs" />
-    <Compile Include="Assets/Scripts/fightingbullet.cs" />
-    <Compile Include="Assets/Scripts/ShootScript.cs" />
-    <Compile Include="Assets/Scripts/NewBehaviourScript.cs" />
+    <Compile Include="Assets/Scripts/other/MoveCamera.cs" />
+    <Compile Include="Assets/Scripts/Alien battle ship/fightingbullet.cs" />
+    <Compile Include="Assets/Scripts/other/ShootScript.cs" />
+    <Compile Include="Assets/Scripts/GamePlay/healthBar.cs" />
+    <Compile Include="Assets/Scripts/other/NewBehaviourScript.cs" />
     <Compile Include="Assets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs" />
-    <Compile Include="Assets/Scripts/EnemyShootScript.cs" />
-    <Compile Include="Assets/Scripts/alienattack.cs" />
-    <Compile Include="Assets/Scripts/Player.cs" />
-    <Compile Include="Assets/Scripts/balloonScript.cs" />
-    <Compile Include="Assets/Scripts/Bullet.cs" />
+    <Compile Include="Assets/Scripts/other/EnemyShootScript.cs" />
+    <Compile Include="Assets/Scripts/Player action/playerShooting.cs" />
+    <Compile Include="Assets/Scripts/Player action/playerbulletmovement.cs" />
+    <Compile Include="Assets/Scripts/Alien battle ship/alienattack.cs" />
+    <Compile Include="Assets/Scripts/other/Player.cs" />
+    <Compile Include="Assets/Scripts/EndingScreenScript/gameover.cs" />
+    <Compile Include="Assets/Scripts/GamePlay/Player_inf.cs" />
+    <Compile Include="Assets/Scripts/GamePlay/balloonScript.cs" />
+    <Compile Include="Assets/Scripts/other/Bullet.cs" />
+    <Compile Include="Assets/Scripts/Alien battle ship/StarSparro_inf.cs" />
+    <Compile Include="Assets/Scripts/Menu Script/main menu.cs" />
+    <Compile Include="Assets/Scripts/Menu Script/Start_button.cs" />
+    <Compile Include="Assets/Scripts/UI/number_of_alien.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
