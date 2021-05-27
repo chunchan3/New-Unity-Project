@@ -14,26 +14,30 @@ public class GenerateEnemies : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(EnemySpawn());
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        EnemySpawn();
     }
 
-    IEnumerator EnemySpawn()
+    private void EnemySpawn()
     {
         while(enemyCount < 7)
         {
-            xPos = Random.Range(1, 5);
-            yPos = Random.Range(1, 5);
+            xPos = Random.Range(-5, 5);
+            yPos = Random.Range(1, 3);
             zPos = Random.Range(1, 5);
             Instantiate(EnemyObject, new Vector3(xPos, yPos, zPos), Quaternion.identity);
-            yield return new WaitForSeconds(0.1f);
             enemyCount++;
         }
 
+    }
+
+    public void DecrementCount()
+    {
+        enemyCount--;
     }
 }
