@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/other/MoveCamera.cs" />
+    <Compile Include="Assets/Scripts/UI/number_of_alien.cs" />
     <Compile Include="Assets/Scripts/Alien battle ship/fightingbullet.cs" />
     <Compile Include="Assets/Scripts/other/ShootScript.cs" />
     <Compile Include="Assets/Scripts/GamePlay/healthBar.cs" />
@@ -69,12 +70,14 @@
     <Compile Include="Assets/Scripts/other/Player.cs" />
     <Compile Include="Assets/Scripts/EndingScreenScript/gameover.cs" />
     <Compile Include="Assets/Scripts/GamePlay/Player_inf.cs" />
+    <Compile Include="Assets/Scripts/Menu Script/Start_button.cs" />
     <Compile Include="Assets/Scripts/GamePlay/balloonScript.cs" />
     <Compile Include="Assets/Scripts/other/Bullet.cs" />
     <Compile Include="Assets/Scripts/Alien battle ship/StarSparro_inf.cs" />
     <Compile Include="Assets/Scripts/Menu Script/main menu.cs" />
-    <Compile Include="Assets/Scripts/Menu Script/Start_button.cs" />
-    <Compile Include="Assets/Scripts/UI/number_of_alien.cs" />
+    <Compile Include="Assets/Scripts/GamePlay/Game_state.cs" />
+    <Compile Include="Assets/Scripts/GamePlay/countdown.cs" />
+    <Compile Include="Assets/Scripts/UI/TouchToStart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
 
 public class balloonScript : MonoBehaviour
 {
@@ -39,13 +38,6 @@ public class balloonScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        alien_length = GameObject.FindGameObjectsWithTag("AlienShip").Length;
-        print(alien_length);
-        if (alien_length == 0)
-        {
-            SceneManager.LoadScene(3);
-        }
-
         int nowTime = Time.frameCount;
         float timeCounter = 0;
         

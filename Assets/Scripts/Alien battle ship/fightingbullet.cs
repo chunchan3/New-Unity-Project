@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class fightingbullet : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class fightingbullet : MonoBehaviour
     float bulletSpeed;
 
     public GameObject smoke;
+
+    public GameObject image_gotHitScreen;
     Player_inf Player;
 
     void Start()
@@ -24,6 +27,12 @@ public class fightingbullet : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * bulletSpeed);
+        if(GameObject.Find("gothit_BG").GetComponent<Image>().color.a > 0)
+        {
+            var color = GameObject.Find("gothit_BG").GetComponent<Image>().color;
+            color.a -= 0.05f;
+            GameObject.Find("gothit_BG").GetComponent<Image>().color = color;
+        }
     }
     
 
@@ -32,8 +41,8 @@ public class fightingbullet : MonoBehaviour
         if(col.gameObject.name == "AR Camera"){
             Debug.Log("Hit collider! ");
             Destroy(gameObject);
+            GotHit();
             Player.player_health = Player.player_health - 1;
-            Debug.Log(Player.player_health);
             if (Player.player_health < 1)
             {
                 SceneManager.LoadScene(2);
@@ -41,12 +50,21 @@ public class fightingbullet : MonoBehaviour
         }
         if(col.gameObject.name == "Bomb(Clone)")
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            Debug.Log("Destroy(gameObject)");
             Destroy(col.gameObject);
+            Debug.Log("Destroy(col.gameObject)");
             Instantiate(smoke, gameObject.transform.position, Quaternion.identity);
 
         }
 
+    }
+
+    void GotHit()
+    {
+        var color =GameObject.Find("gothit_BG").GetComponent<Image>().color;
+        color.a = 0.8f;
+        GameObject.Find("gothit_BG").GetComponent<Image>().color = color;
     }
     
 }
