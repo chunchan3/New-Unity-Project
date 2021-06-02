@@ -1,100 +1,185 @@
 Using pre-set license
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2021.1.6f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/chunhochan/UnityLearn/New Unity Project
+/Users/macbookpro/Documents/GitHub/New-Unity-Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54617
-Successfully changed project path to: /Users/chunhochan/UnityLearn/New Unity Project
-/Users/chunhochan/UnityLearn/New Unity Project
+59867
+Successfully changed project path to: /Users/macbookpro/Documents/GitHub/New-Unity-Project
+/Users/macbookpro/Documents/GitHub/New-Unity-Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.6f1 (338bb68529b2)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/chunhochan/UnityLearn/New Unity Project/Assets
-GfxDevice: creating device client; threaded=0
-2021-05-30 21:48:22.138 Unity[11157:304065] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-05-30 21:48:22.138 Unity[11157:304065] Metal devices available: 1
-2021-05-30 21:48:22.138 Unity[11157:304065] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-05-30 21:48:22.138 Unity[11157:304065] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/macbookpro/Documents/GitHub/New-Unity-Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-06-01 21:21:58.791 Unity[14979:532395] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2021-06-01 21:21:58.791 Unity[14979:532395] Metal devices available: 1
+2021-06-01 21:21:58.791 Unity[14979:532395] 0: Intel Iris Pro Graphics (low power)
+2021-06-01 21:21:58.792 Unity[14979:532395] Using device Intel Iris Pro Graphics (low power)
+Initializing Metal device caps: Intel Iris Pro Graphics
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56157
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56979
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.6f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003215 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.6f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002699 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 38.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.17 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.109 seconds
+- Completed reload, in  3.909 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001430 seconds.
+Registered in 0.000563 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.91 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.452 seconds
+- Completed reload, in  1.627 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1577 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.0 MB.
-System memory in use after: 163.1 MB.
+Unloading 1582 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.1 MB.
+System memory in use after: 154.1 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2047.
-Total: 2.581075 ms (FindLiveObjects: 0.265099 ms CreateObjectMapping: 0.084844 ms MarkObjects: 2.099101 ms  DeleteObjects: 0.130987 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 3.577323 ms (FindLiveObjects: 0.245150 ms CreateObjectMapping: 0.257238 ms MarkObjects: 2.980241 ms  DeleteObjects: 0.093136 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/main menu.unity
-  artifactKey: Guid(9336922c3070f4c48bb4ec9443e01b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/main menu.unity using Guid(9336922c3070f4c48bb4ec9443e01b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c0660dc1e55f4238326e7293f24f53') in 0.020449 seconds
-  Import took 0.025396 seconds .
+  path: Assets/Sounds/balloon pop.mp3
+  artifactKey: Guid(d2fd1a237b2e9409b9b3fb0a6cb71564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/balloon pop.mp3 using Guid(d2fd1a237b2e9409b9b3fb0a6cb71564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf1ac37202ea4c6b1c1372cdc7e2b2d') in 1.093153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/audio/cartoon_rocket_launch.mp3
+  artifactKey: Guid(44c7ad8fcbbad4cb583bb482dd81c172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio/cartoon_rocket_launch.mp3 using Guid(44c7ad8fcbbad4cb583bb482dd81c172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024977bcd56f664d52c94c014ec84843') in 0.015796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/audio/main_menu_audio.mp3
+  artifactKey: Guid(1ba80b476569f4af1be457d30332b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio/main_menu_audio.mp3 using Guid(1ba80b476569f4af1be457d30332b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f6b335ab83daace56f4b1e8dd9e270') in 0.012388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/audio/321go.mp3
+  artifactKey: Guid(7700bf9d52e564355b5b1842e0d7cdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio/321go.mp3 using Guid(7700bf9d52e564355b5b1842e0d7cdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca7e35ca939b7162326971b11bdec12') in 0.015787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/audio/zapsplat_nature_wind_strong_stormy_gusts_high_pitched_howling_59785.mp3
+  artifactKey: Guid(afdd858a82aa24c768e73889dd358e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio/zapsplat_nature_wind_strong_stormy_gusts_high_pitched_howling_59785.mp3 using Guid(afdd858a82aa24c768e73889dd358e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdcf27ba3d6bfb2a680f9c051c9c982') in 0.032135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 675.067391 seconds.
+  path: Assets/Scripts/Music Scripts
+  artifactKey: Guid(95acf70bbe44245e6a082411bcef0fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Scripts using Guid(95acf70bbe44245e6a082411bcef0fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9b2546c51b2fae3601ae0845871e6b') in 0.002780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 456.234406 seconds.
+  path: Assets/musicPlayerScript.cs
+  artifactKey: Guid(3171d8755a70d47d289a78828ce125a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/musicPlayerScript.cs using Guid(3171d8755a70d47d289a78828ce125a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afcdf6df4b4c7fd023761ff64b5b1ff') in 2.255091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 315.724281 seconds.
+  path: Assets/Scripts/Music Scripts/MusicPlayerScript.cs
+  artifactKey: Guid(3171d8755a70d47d289a78828ce125a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Scripts/MusicPlayerScript.cs using Guid(3171d8755a70d47d289a78828ce125a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125d77535a246df6edb4d33e8e19eb9f') in 0.005731 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.4 MB.
+System memory in use after: 165.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2075.
+Total: 3.692198 ms (FindLiveObjects: 0.347486 ms CreateObjectMapping: 0.121581 ms MarkObjects: 3.126788 ms  DeleteObjects: 0.095041 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.503506 seconds.
+  path: Assets/Scripts/Music Scripts/MusicPlayerScript.cs
+  artifactKey: Guid(3171d8755a70d47d289a78828ce125a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Scripts/MusicPlayerScript.cs using Guid(3171d8755a70d47d289a78828ce125a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b149cd69b81124235286ffeaf42fc0ac') in 0.008786 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000542 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.6 MB.
+System memory in use after: 165.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 2.968311 ms (FindLiveObjects: 0.194082 ms CreateObjectMapping: 0.117196 ms MarkObjects: 2.593398 ms  DeleteObjects: 0.062544 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000489 seconds.
+Registered in 0.000470 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
+- Completed reload, in  1.303 seconds
 Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1551 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 158.1 MB.
-System memory in use after: 158.1 MB.
+Unloading 1558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.8 MB.
+System memory in use after: 165.9 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2051.
-Total: 2.628817 ms (FindLiveObjects: 0.243650 ms CreateObjectMapping: 0.070230 ms MarkObjects: 2.222446 ms  DeleteObjects: 0.089943 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2084.
+Total: 2.715048 ms (FindLiveObjects: 0.189395 ms CreateObjectMapping: 0.135113 ms MarkObjects: 2.331183 ms  DeleteObjects: 0.058394 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
